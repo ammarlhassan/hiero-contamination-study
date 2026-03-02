@@ -1,0 +1,51 @@
+test_index,document_id,contamination_status,target_frequency,source_overlap_8gram,target_preview
+0,OY5XUHC3ZNAI3GGV3HNTTUYOAY,clean,0,0.2419,Tetis Hemsut sind unter seinen Füßen.
+1,OY5XUHC3ZNAI3GGV3HNTTUYOAY,soft,0,0.2857,Tetis Uräen sind an seinem Scheitel.
+2,OY5XUHC3ZNAI3GGV3HNTTUYOAY,clean,0,0.3056,Hunderte opfern ihm.
+3,OY5XUHC3ZNAI3GGV3HNTTUYOAY,soft,0,0.4314,Teti ist gekrönt als Herr des Horizontes.
+4,OY5XUHC3ZNAI3GGV3HNTTUYOAY,clean,0,0.48,Ihre Zauberkraft ist im Bauch des Teti.
+5,5DL6JG4FUFBGLORCT465VSKWUM,soft,0,0.325,"der Herr der Stärke, während er die Wereret-Krone empfängt,"
+6,GPUUPPQXKNAPLENVWNO6A6OGFE,soft,0,0.4828,"Es gibt nichts, was ich nicht wusste."
+7,H6Z5TORPQFFZXOU6CJODODZHYQ,clean,0,0.8246,andere kommen an ihre Stelle.
+8,H6Z5TORPQFFZXOU6CJODODZHYQ,soft,0,0.7692,"Feiere einen schönen Tag, Paser!"
+9,J4EXGHLCL5DR7JHSPDWTVEKMDY,exact,1,1.0,Daraufhin sagte ich zu ihr:
+10,J4EXGHLCL5DR7JHSPDWTVEKMDY,exact,2,1.0,Daraufhin sagten sie:
+11,QUFWZTEPLRE4NHKCPAJXGSAOSQ,clean,0,0.2963,"Die Bäume zersplitterten,"
+12,SGAKROLJYZEERAM7HO3ZZWRF3E,soft,0,0.7059,der Nordwind möge für dich heulen.
+13,SSUM6V6CCVGJLB2DIIB5DQ4I6U,clean,0,1.0,Alles Gute ist verschwunden.
+14,SWR3J3XHONEOTBLEBKUG2LRVJM,clean,0,0.2273,Möge deiner gedacht werden vor dem Unversehrt Erwachenden!
+15,UEMXZBFT7BDGPBAORS3OSOPQZU,exact,1,0.75,Mögen ihn die in Tawer Befindlichen und die Priester des großen Gottes erheben.
+16,WHEOIX5P5ZAVVFU4BGO6OWASV4,clean,0,0.381,"seine Knochen waren aus Silber,"
+17,4UKF544DSNAMHGD2YWHUASHUHU,exact,1,0.8421,Werde jede schmerzende Stelle damit verbunden.
+18,4UKF544DSNAMHGD2YWHUASHUHU,soft,0,1.0,Stechholz.
+19,4UKF544DSNAMHGD2YWHUASHUHU,exact,18,1.0,"Werde getrunken, vier Tage lang."
+20,4UKF544DSNAMHGD2YWHUASHUHU,clean,0,0.1923,Werden seine beiden Seiten eingerieben.
+21,4UKF544DSNAMHGD2YWHUASHUHU,clean,0,0.875,"Werde gegessen, einen Tag lang."
+22,7GYITRCORFDG5LSMIKTYILCDJY,exact,27,1.0,Werde daran gegeben.
+23,7USDA2QTOZEKHKANKSDDZY7KXM,exact,14,1.0,Werde getrunken.
+24,7YKDGDFXMVDU7FGWTYWL5VG7IA,clean,0,0.5238,Der Kopf eines Mannes oder einer Frau werde damit eingerieben.
+25,7YKDGDFXMVDU7FGWTYWL5VG7IA,clean,0,1.0,Werde in Öl gegeben.
+26,A3SCLECB6ZH23OARP74WFWLFAU,clean,0,0.5,werde vollständig zum Gären gebracht.
+27,DMNIC3WYUFBV7BWEBVLZFS22UE,exact,2,1.0,Werde zerkleinert.
+28,FA35BEUTGJCLFB7EXS3WC4IKLM,soft,0,0.6136,Dieses Leiden ist hinabgestiegen zum Mastdarm und zum Rektum.
+29,G4RBISLJFVEMLJJZCGNLVQCCVU,clean,0,0.4138,Zu seiner Lunge führen sie.
+30,JR63HPLMQRDCTITNGOF5UD64QI,clean,0,0.2542,werde am Abend mit sehr viel Wasser besprengt.
+31,LZKJPMDPJRCHTAVXRSLYBMFRXI,exact,35,1.0,Werde fein zermahlen;
+32,MYJ6W5WA6JFGFNP4YXMT67MYYM,soft,0,0.4,Werde zerrieben in Wein: 1.
+33,OHMIH25V7FHTDJL5QMUKQSSJWY,clean,0,0.55,"Nicht ich bin es, der dich töten wird."
+34,OHMIH25V7FHTDJL5QMUKQSSJWY,exact,6,0.0,Werde fein zerrieben.
+35,OHMIH25V7FHTDJL5QMUKQSSJWY,exact,26,0.5333,Werde damit verbunden.
+36,REED47N2PNGD5HULYWF4VHCJPA,exact,89,1.0,Werde gekocht.
+37,REED47N2PNGD5HULYWF4VHCJPA,clean,0,0.5775,"$shr.t$Harz : 1, Gänsefett: 1, Entstandenes vom Honig: 1."
+38,REED47N2PNGD5HULYWF4VHCJPA,clean,0,0.6053,"Afrikanisches Ebenholz, Bleiglanz, Wasser."
+39,REED47N2PNGD5HULYWF4VHCJPA,clean,0,0.6154,werde in Selbstentstandenes vom Honig eingeschlossen.
+40,RLYWKUYPBJBADB4LFVGQYD4EQM,clean,0,0.44,Beseitigen einer $srf.t$Hautentzündung.
+41,RQ6NFFAST5FNVMYBYI3PS2NMKA,clean,0,0.5556,Werde daran gegeben 4 Tage lang.
+42,RQ6NFFAST5FNVMYBYI3PS2NMKA,clean,0,0.9444,"Gummiharz: 1, Natron: 1, Blätter der Dornakazie: 1."
+43,SRW5MKJP7NEGHDWWLXBYUE2MPE,exact,9,1.0,So handelst du dagegen:
+44,VHBZCYNQQJFDTGWMX34USAHENE,clean,0,0.8636,Werde mit Gegorenem von Dattelsaft vermengt.
+45,VHKSDEIJSJEF7GWX7UIF6FBAZY,exact,49,1.0,Werde zermahlen.
+46,VQIUBI5MUFFMXHUXJUQBIBZSOU,clean,0,0.3488,Es findet keinen Weg des Herauskommens.
+47,WA6O6O6PP5CAXJVWVWHF7BKEBY,exact,2,1.0,Werde darauf gegeben.
+48,X2UCZ7EIYNFVJEOGMUNRKY2OFQ,exact,6,1.0,Werde über 4 Tage hinweg getrunken.
+49,YQX5S6WJANF7RPBLHLXYKGAIQI,clean,0,0.5556,Ich werde zum Himmel kommen.

@@ -1,0 +1,278 @@
+{
+  "metadata": {
+    "description": "Contaminated test samples (targets appear verbatim in training)",
+    "size": 15
+  },
+  "samples": [
+    {
+      "source": "P6 D36 N35 I10 D46 N35 A1 N35 S29",
+      "transliteration": "ꜥḥꜥ.n ḏd.n =j n =s",
+      "target": "Daraufhin sagte ich zu ihr:",
+      "lKey": "40111 185810 10030 400055 10090",
+      "wordClass": "particle verb_2-lit personal_pronoun preposition personal_pronoun",
+      "flexCode": "3 14381 3 93005 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "J4EXGHLCL5DR7JHSPDWTVEKMDY",
+        "id_sentence": "IBUBd9IEoLKBrECGoID7WiPssiI",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawlit_3063_139"
+      }
+    },
+    {
+      "source": "P6 D36 N35 I10 D46 N35 S29 N35 Z2",
+      "transliteration": "ꜥḥꜥ.n ḏd.n =sn",
+      "target": "Daraufhin sagten sie:",
+      "lKey": "40111 185810 10100",
+      "wordClass": "particle verb_2-lit personal_pronoun",
+      "flexCode": "3 14389 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "J4EXGHLCL5DR7JHSPDWTVEKMDY",
+        "id_sentence": "IBUBdQ9w0QRBdUsmrTUIHWNF8Sw",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawlit_3063_288"
+      }
+    },
+    {
+      "source": "S29 A28 M23 G43 M17 Z11 G43 R18 A6 A1 Z3 W24 Z1 R8 O29v",
+      "transliteration": "sqꜣi̯ sw jm,j.w Tꜣ wr wꜥb.pl n.w nṯr ꜥꜣ",
+      "target": "Mögen ihn die in Tawer Befindlichen und die Priester des großen Gottes erheben.",
+      "lKey": "145960 129490 25130 550364 44460 79800 90360",
+      "wordClass": "verb_caus_3-inf personal_pronoun nisbe_adjective_preposition place_name substantive_masc nisbe_adjective_preposition epith_god",
+      "flexCode": "10020 18 70160 3 70100 71030 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "UEMXZBFT7BDGPBAORS3OSOPQZU",
+        "id_sentence": "IBUBd6PvSQulAU3skPanZEskxng",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "Sesostris II. Chacheperre",
+        "script": "reguläre Hieroglyphenschrift",
+        "id_tree": "aaew_corpus_sawlit_3668_7"
+      }
+    },
+    {
+      "source": "A2 D21 N5 4",
+      "transliteration": "zwr r hrw 4",
+      "target": "Werde getrunken, vier Tage lang.",
+      "lKey": "130360 400030 99060 850814",
+      "wordClass": "verb_3-lit preposition substantive_masc cardinal",
+      "flexCode": "10910 3 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "4UKF544DSNAMHGD2YWHUASHUHU",
+        "id_sentence": "IBcAUWw267TaZUTXoe97uIflhus",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "Ramses II. Usermaatre-Setepenre",
+        "script": "Neuhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_415_454"
+      }
+    },
+    {
+      "source": "D37 D21 I9",
+      "transliteration": "ḏi̯ r =f",
+      "target": "Werde daran gegeben.",
+      "lKey": "96700 91901 10050",
+      "wordClass": "verb_irr preposition personal_pronoun",
+      "flexCode": "10910 93004 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "7GYITRCORFDG5LSMIKTYILCDJY",
+        "id_sentence": "IBcCBrKCIRqpJEK2t7WV9ejS160",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_810_65"
+      }
+    },
+    {
+      "source": "S29 G36 D21 M17 N35A A2",
+      "transliteration": "swrj",
+      "target": "Werde getrunken.",
+      "lKey": "130360",
+      "wordClass": "verb_3-lit",
+      "flexCode": "10910",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "7USDA2QTOZEKHKANKSDDZY7KXM",
+        "id_sentence": "IBYCOClLTmEQy0x2kK2cpYU1Ft4",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_879_24"
+      }
+    },
+    {
+      "source": "N29 N35 N29 N35 Z9 D36",
+      "transliteration": "qnqn",
+      "target": "Werde zerkleinert.",
+      "lKey": "161450",
+      "wordClass": "verb_4-lit",
+      "flexCode": "10910",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "DMNIC3WYUFBV7BWEBVLZFS22UE",
+        "id_sentence": "IBYDRLl2mKO75kOvnRAPY5q0de4",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_1443_111"
+      }
+    },
+    {
+      "source": "Aa27 W24 D36 Y3 Y1",
+      "transliteration": "nḏ snꜥꜥ",
+      "target": "Werde fein zermahlen;",
+      "lKey": "90880 136700",
+      "wordClass": "verb_2-lit verb_caus_3-lit",
+      "flexCode": "10910 20000",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "LZKJPMDPJRCHTAVXRSLYBMFRXI",
+        "id_sentence": "IBcAOf2BZXVDzEh6jQ5TJMxvzFM",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_4860_12"
+      }
+    },
+    {
+      "source": "Aa27 Y3",
+      "transliteration": "nḏ snꜥꜥ",
+      "target": "Werde fein zerrieben.",
+      "lKey": "90880 136700",
+      "wordClass": "verb_2-lit verb_caus_3-lit",
+      "flexCode": "10910 22000",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "OHMIH25V7FHTDJL5QMUKQSSJWY",
+        "id_sentence": "IBcCJnucxZmJmU4RoGeP6RltlVQ",
+        "language": "traditionelles Mittelägyptisch",
+        "date": "19. Dynastie - 20. Dynastie",
+        "script": "Neuhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_5184_210"
+      }
+    },
+    {
+      "source": "Aa2 D40 A24 D2 D21 S29",
+      "transliteration": "wt ḥr =s",
+      "target": "Werde damit verbunden.",
+      "lKey": "50980 855548 10090",
+      "wordClass": "verb_2-lit preposition personal_pronoun",
+      "flexCode": "10910 93005 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "OHMIH25V7FHTDJL5QMUKQSSJWY",
+        "id_sentence": "IBcCJrRfAIAyRkSvsomRgjLGyv0",
+        "language": "traditionelles Mittelägyptisch",
+        "date": "19. Dynastie - 20. Dynastie",
+        "script": "Neuhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_5184_212"
+      }
+    },
+    {
+      "source": "Q3 O34 Q7",
+      "transliteration": "psi̯",
+      "target": "Werde gekocht.",
+      "lKey": "62180",
+      "wordClass": "verb_3-inf",
+      "flexCode": "10910",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "REED47N2PNGD5HULYWF4VHCJPA",
+        "id_sentence": "IBYCcUxnEfoxSU9uulIcH1IfwRg",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_5570_23"
+      }
+    },
+    {
+      "source": "D4 Aa1 D21 V31A D21 S29",
+      "transliteration": "jri̯.ḫr =k r =s",
+      "target": "So handelst du dagegen:",
+      "lKey": "851809 10110 91902 10090",
+      "wordClass": "verb_3-inf personal_pronoun preposition personal_pronoun",
+      "flexCode": "10602 3 93005 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "SRW5MKJP7NEGHDWWLXBYUE2MPE",
+        "id_sentence": "IBYAVNEJ7caeKUkluhWu6YfY1WA",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "Sesostris II. Chacheperre - Amenemhet III. Nimaatre",
+        "script": "Mittelhieratisch",
+        "id_tree": "aaew_corpus_sawmedizin_5767_58"
+      }
+    },
+    {
+      "source": "Aa27 W24 D36",
+      "transliteration": "nḏ",
+      "target": "Werde zermahlen.",
+      "lKey": "90880",
+      "wordClass": "verb_2-lit",
+      "flexCode": "10910",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "VHKSDEIJSJEF7GWX7UIF6FBAZY",
+        "id_sentence": "IBUBd8u9TsUBF0BQtzkOH18Vn58",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_6150_76"
+      }
+    },
+    {
+      "source": "D21 D36 D2 D21 Z1 I9",
+      "transliteration": "rḏi̯ ḥr =f",
+      "target": "Werde darauf gegeben.",
+      "lKey": "96700 400090 10050",
+      "wordClass": "verb_irr preposition personal_pronoun",
+      "flexCode": "10910 93004 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "WA6O6O6PP5CAXJVWVWHF7BKEBY",
+        "id_sentence": "IBcCCXqWhk6oEUKQpLnBkkkdvtk",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_6274_123"
+      }
+    },
+    {
+      "source": "A2 D21 N5 4",
+      "transliteration": "zwr r hrw 4",
+      "target": "Werde über 4 Tage hinweg getrunken.",
+      "lKey": "130360 400030 99060 850814",
+      "wordClass": "verb_3-lit preposition substantive_masc cardinal",
+      "flexCode": "10910 3 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "X2UCZ7EIYNFVJEOGMUNRKY2OFQ",
+        "id_sentence": "IBYBYCGa9l3730wfu49ug1QotVo",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_6395_46"
+      }
+    }
+  ]
+}

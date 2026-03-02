@@ -1,0 +1,645 @@
+{
+  "metadata": {
+    "description": "Decontaminated hieroglyphic-to-German test set (no exact target overlap with training)",
+    "original_test_size": 50,
+    "contaminated_size": 15,
+    "clean_size": 35,
+    "contamination_rate_exact": "30.0%",
+    "contamination_rate_normalized": "32.0%",
+    "detection_method": "exact string match of test target against all 44,513 unique German training targets",
+    "training_filter": "target_lang='de' AND non-empty target (55,397 samples)",
+    "test_filter": "source_lang='ea' AND target_lang='de' AND non-empty source AND target (50 samples)"
+  },
+  "samples": [
+    {
+      "source": "M17 G43 V28 N41 G43 S29 X1 F29 F29 F29 X1 X1 M17 T28 D21 D46 D56 D56 I9",
+      "transliteration": "jw ḥms.w,t Ttj ẖr rd.du =f",
+      "target": "Tetis Hemsut sind unter seinen Füßen.",
+      "lKey": "851515 852032 450656 123910 96600 10050",
+      "wordClass": "particle substantive_fem kings_name preposition substantive_masc personal_pronoun",
+      "flexCode": "3 70160 3 3 70354 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "OY5XUHC3ZNAI3GGV3HNTTUYOAY",
+        "id_sentence": "IBUBd6lCHEylM0IxpuPT5musVsI",
+        "language": "",
+        "date": "Teti",
+        "script": "reguläre Hieroglyphenschrift",
+        "id_tree": "aaew_corpus_bbawpyramidentexte_1293_7"
+      }
+    },
+    {
+      "source": "M17 G43 M17 D36 D21 G43 X1 I13 I13 I13 X1 X1 M17 G17 F13 X1 Z1 I9",
+      "transliteration": "jw jꜥr,t.pl Ttj m wp,t =f",
+      "target": "Tetis Uräen sind an seinem Scheitel.",
+      "lKey": "851515 21780 450656 400007 45530 10050",
+      "wordClass": "particle substantive_fem kings_name preposition substantive_fem personal_pronoun",
+      "flexCode": "3 70160 3 3 70054 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "OY5XUHC3ZNAI3GGV3HNTTUYOAY",
+        "id_sentence": "IBUBd5vMJVJE1kPrs1l7ZJO0BKY",
+        "language": "",
+        "date": "Teti",
+        "script": "reguläre Hieroglyphenschrift",
+        "id_tree": "aaew_corpus_bbawpyramidentexte_1293_9"
+      }
+    },
+    {
+      "source": "M17 G43 G43 D46 N35 M11D N35 I9 V1 V1 V1 X1",
+      "transliteration": "jw wdn n =f šn,t.pl",
+      "target": "Hunderte opfern ihm.",
+      "lKey": "851515 51690 400055 10050 155320",
+      "wordClass": "particle verb_3-lit preposition personal_pronoun cardinal",
+      "flexCode": "3 13020 93004 3 70100",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "OY5XUHC3ZNAI3GGV3HNTTUYOAY",
+        "id_sentence": "IBUBd3LfnM1CaEdTjOIIrWWxDcU",
+        "language": "",
+        "date": "Teti",
+        "script": "reguläre Hieroglyphenschrift",
+        "id_tree": "aaew_corpus_bbawpyramidentexte_1293_44"
+      }
+    },
+    {
+      "source": "M17 G43 X1 X1 M17 S29 D58 N35 S2 G17 V30 G25 Aa1 X1 N18 G7",
+      "transliteration": "jw Ttj sbn m nb ꜣḫ,t",
+      "target": "Teti ist gekrönt als Herr des Horizontes.",
+      "lKey": "851515 450656 131780 500292 81650 227",
+      "wordClass": "particle kings_name verb_caus_2-lit preposition substantive_masc substantive_fem",
+      "flexCode": "3 3 20041 3 70060 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "OY5XUHC3ZNAI3GGV3HNTTUYOAY",
+        "id_sentence": "IBUBdyosFQI21kdQtF82SHAN6Uo",
+        "language": "",
+        "date": "Teti",
+        "script": "reguläre Hieroglyphenschrift",
+        "id_tree": "aaew_corpus_bbawpyramidentexte_1293_47"
+      }
+    },
+    {
+      "source": "M17 G43 V28 D28 Y2 S29 N35 G17 F32 X1 Z1 N35 X1 X1 X1 M17",
+      "transliteration": "jw ḥkꜣ =sn m ẖ,t n.t Ttj",
+      "target": "Ihre Zauberkraft ist im Bauch des Teti.",
+      "lKey": "851515 110660 10100 400007 122080 79800 450656",
+      "wordClass": "particle substantive_masc personal_pronoun preposition substantive_fem nisbe_adjective_preposition kings_name",
+      "flexCode": "3 70059 3 3 3 71020 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "OY5XUHC3ZNAI3GGV3HNTTUYOAY",
+        "id_sentence": "IBUBdyyWwZrZz0ZYk7wRf9926ac",
+        "language": "",
+        "date": "Teti",
+        "script": "reguläre Hieroglyphenschrift",
+        "id_tree": "aaew_corpus_bbawpyramidentexte_1293_56"
+      }
+    },
+    {
+      "source": "V30 N35 M3F Aa1 X1 O43 Q3 I9 G36 D21 D21 X1 S8A",
+      "transliteration": "nb nḫt šzp =f Wrr,t",
+      "target": "der Herr der Stärke, während er die Wereret-Krone empfängt,",
+      "lKey": "81650 87620 157160 10050 47920",
+      "wordClass": "substantive_masc substantive_masc verb_3-lit personal_pronoun substantive_fem",
+      "flexCode": "70060 3 10024 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "5DL6JG4FUFBGLORCT465VSKWUM",
+        "id_sentence": "IBUBdygIBI6F0UQNiY6a43PVqN0",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "13. Dynastie",
+        "script": "reguläre Hieroglyphenschrift",
+        "id_tree": "aaew_corpus_sawlit_176_10"
+      }
+    },
+    {
+      "source": "D35 N35 E34 N35 Aa1 G17 X1 D35 N35 A1",
+      "transliteration": "nn wn ḫm.t.n =j",
+      "target": "Es gibt nichts, was ich nicht wusste.",
+      "lKey": "79090 116910 10030",
+      "wordClass": "particle verb_2-lit personal_pronoun",
+      "flexCode": "3 40021 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "GPUUPPQXKNAPLENVWNO6A6OGFE",
+        "id_sentence": "IBUCZhLICCgvDUM4o2Sn1EoN1lk",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "Mittleres Reich",
+        "script": "reguläre Hieroglyphenschrift",
+        "id_tree": "aaew_corpus_sawlit_704_12"
+      }
+    },
+    {
+      "source": "V31 G43 Z4 A1 B1 Z2 D2 Z1 M18 M17 X1 D54 D21 Q1 X1 O1 O34 N35 Z2",
+      "transliteration": "k.wj.pl ḥr jy.t r s,t =sn",
+      "target": "andere kommen an ihre Stelle.",
+      "lKey": "163760 107529 21930 91901 125100 10100",
+      "wordClass": "adjective preposition verb_irr preposition substantive_fem personal_pronoun",
+      "flexCode": "71040 3 61300 3 70059 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "H6Z5TORPQFFZXOU6CJODODZHYQ",
+        "id_sentence": "IBUBdW6D6KwjskhGlcQpAMPYYZ4",
+        "language": "traditionelles Mittelägyptisch",
+        "date": "Ramses II. Usermaatre-Setepenre",
+        "script": "reguläre Hieroglyphenschrift",
+        "id_tree": "aaew_corpus_sawlit_735_2"
+      }
+    },
+    {
+      "source": "D4 N5 Z1 F35 G40 A21",
+      "transliteration": "jri̯ hrw nfr Pꜣ sr",
+      "target": "Feiere einen schönen Tag, Paser!",
+      "lKey": "29030 99060 550034 600143",
+      "wordClass": "verb substantive_masc adjective person_name",
+      "flexCode": "50010 3 71010 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "H6Z5TORPQFFZXOU6CJODODZHYQ",
+        "id_sentence": "IBUBd9MYVdHQ600LlvgWd4MFVMA",
+        "language": "traditionelles Mittelägyptisch",
+        "date": "Ramses II. Usermaatre-Setepenre",
+        "script": "reguläre Hieroglyphenschrift",
+        "id_tree": "aaew_corpus_sawlit_735_9"
+      }
+    },
+    {
+      "source": "M3 X1 Z1 Z2 D2 Z1 G28 G17 G28 G17 Z9",
+      "transliteration": "ḫt.pl ḥr gmgm",
+      "target": "Die Bäume zersplitterten,",
+      "lKey": "121200 107529 167370",
+      "wordClass": "substantive preposition verb_4-lit",
+      "flexCode": "70100 3 61000",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "QUFWZTEPLRE4NHKCPAJXGSAOSQ",
+        "id_sentence": "IBUBdywj4yhOVEY7tz3mp5VtYWE",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "12. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawlit_3476_51"
+      }
+    },
+    {
+      "source": "M27 P5 N35 V31 V22 X1 P5",
+      "transliteration": "šmꜥ n =k mḥ,t",
+      "target": "der Nordwind möge für dich heulen.",
+      "lKey": "154730 400055 10110 73860",
+      "wordClass": "verb_3-lit preposition personal_pronoun substantive_fem",
+      "flexCode": "10020 93002 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "SGAKROLJYZEERAM7HO3ZZWRF3E",
+        "id_sentence": "IBUBd2QdHWICW0r0usBx5SAizjs",
+        "language": "traditionelles Mittelägyptisch",
+        "date": "Ramses II. Usermaatre-Setepenre",
+        "script": "reguläre Hieroglyphenschrift",
+        "id_tree": "aaew_corpus_sawlit_3567_7"
+      }
+    },
+    {
+      "source": "D58 Z7 F35 I9 D21 V30 D21 Z7 Z7 M17 D54",
+      "transliteration": "bw nfr nb rwwj",
+      "target": "Alles Gute ist verschwunden.",
+      "lKey": "55220 81660 93540",
+      "wordClass": "substantive adjective verb_3-inf",
+      "flexCode": "3 71010 20040",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "SSUM6V6CCVGJLB2DIIB5DQ4I6U",
+        "id_sentence": "IBUBdzuvdRo6U0xFkdgvL5TIBTY",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "Amenhotep II. Aacheperure",
+        "script": "Neuhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawlit_3585_100"
+      }
+    },
+    {
+      "source": "O34 M12 G1 A2 X1 Z7 V31 Aa15 D53 U39 G43 U28 D5 A40",
+      "transliteration": "sḫꜣ.tw =k m bꜣḥ Rs wḏꜣ",
+      "target": "Möge deiner gedacht werden vor dem Unversehrt Erwachenden!",
+      "lKey": "141620 10110 64750 95980",
+      "wordClass": "verb_caus_2-lit personal_pronoun preposition epith_god",
+      "flexCode": "10322 3 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "SWR3J3XHONEOTBLEBKUG2LRVJM",
+        "id_sentence": "IBUBd3EQU1pSdEZQn4Snq9rWZ5k",
+        "language": "traditionelles Mittelägyptisch",
+        "date": "19. Dynastie",
+        "script": "reguläre Hieroglyphenschrift",
+        "id_tree": "aaew_corpus_sawlit_3588_4"
+      }
+    },
+    {
+      "source": "T19 Z1 Z2 I9 Aa15 S14 N33 Z2",
+      "transliteration": "qs.pl =f m ḥḏ",
+      "target": "seine Knochen waren aus Silber,",
+      "lKey": "162200 10050 400082 112330",
+      "wordClass": "substantive personal_pronoun preposition substantive_masc",
+      "flexCode": "70154 3 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "WHEOIX5P5ZAVVFU4BGO6OWASV4",
+        "id_sentence": "IBUBdQWrnop0Mkx6gzetK0wl9lM",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "Sethos I. Menmaatre",
+        "script": "reguläre Hieroglyphenschrift",
+        "id_tree": "aaew_corpus_sawlit_3770_4"
+      }
+    },
+    {
+      "source": "Aa2 D40 Y5 N35 X1 G37 Z3 V30 X1 D2 D21 S29 X1",
+      "transliteration": "wt mn,t nb.t ḥr =st",
+      "target": "Werde jede schmerzende Stelle damit verbunden.",
+      "lKey": "50980 69770 81660 855548 851173",
+      "wordClass": "verb_2-lit substantive_fem adjective preposition personal_pronoun",
+      "flexCode": "10040 3 71020 93005 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "4UKF544DSNAMHGD2YWHUASHUHU",
+        "id_sentence": "IBcARwgHU21KVkXfjdbSCSvuQos",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "Ramses II. Usermaatre-Setepenre",
+        "script": "Neuhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_415_94"
+      }
+    },
+    {
+      "source": "M3 T30 M1A Z3",
+      "transliteration": "ḫt ds",
+      "target": "Stechholz.",
+      "lKey": "861206",
+      "wordClass": "substantive_masc",
+      "flexCode": "3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "4UKF544DSNAMHGD2YWHUASHUHU",
+        "id_sentence": "IBcAUUUAzLmBe01SpHi4Zv350rU",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "Ramses II. Usermaatre-Setepenre",
+        "script": "Neuhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_415_281"
+      }
+    },
+    {
+      "source": "D36 G17 D36 Z7 U10 Z2 Z3 Z3A H6 Z7 Y1 F51 F51 I9 Z4 M17 G17",
+      "transliteration": "ꜥmꜥ šw,t.du =fj jm",
+      "target": "Werden seine beiden Seiten eingerieben.",
+      "lKey": "850352 152840 10060 24640",
+      "wordClass": "verb_3-lit substantive_fem personal_pronoun prepositional_adverb",
+      "flexCode": "10040 70364 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "4UKF544DSNAMHGD2YWHUASHUHU",
+        "id_sentence": "IBcAU4VQEKC9VEynmcEwKFOIOjI",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "Ramses II. Usermaatre-Setepenre",
+        "script": "Neuhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_415_524"
+      }
+    },
+    {
+      "source": "Z11 G17 Z7 A2 D21 N5 Z1",
+      "transliteration": "wnm r hrw 1",
+      "target": "Werde gegessen, einen Tag lang.",
+      "lKey": "46710 400030 99060 850814",
+      "wordClass": "verb_3-lit preposition substantive_masc cardinal",
+      "flexCode": "10910 3 3 74030",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "4UKF544DSNAMHGD2YWHUASHUHU",
+        "id_sentence": "IBcAUQA6EHxwXUQCmlaJZXmDW3M",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "Ramses II. Usermaatre-Setepenre",
+        "script": "Neuhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_415_545"
+      }
+    },
+    {
+      "source": "G36 D21 V28 W24 D36 D1 Z1 M17 G17 N35 O34 A1 Z1 O34 X1 B1 D21 Z1 Q3 Z7",
+      "transliteration": "wrḥ dp jm n s s,t rʾ pw",
+      "target": "Der Kopf eines Mannes oder einer Frau werde damit eingerieben.",
+      "lKey": "48030 170860 24640 79800 125010 125040 92850",
+      "wordClass": "verb_3-lit substantive_masc prepositional_adverb nisbe_adjective_preposition substantive_masc substantive_fem particle",
+      "flexCode": "10910 3 3 71010 3 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "7YKDGDFXMVDU7FGWTYWL5VG7IA",
+        "id_sentence": "IBYCk2FNhbkEIE18pLaDhFWPCVc",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_899_36"
+      }
+    },
+    {
+      "source": "D21 D36 D2 Z1 U7 D21 V28 X1 W24 Z2",
+      "transliteration": "rḏi̯ ḥr mrḥ,t",
+      "target": "Werde in Öl gegeben.",
+      "lKey": "96700 400090 72840",
+      "wordClass": "verb_irr preposition substantive_fem",
+      "flexCode": "10910 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "7YKDGDFXMVDU7FGWTYWL5VG7IA",
+        "id_sentence": "IBYCk5px0YF7RkGRuazEcqWgCXI",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_899_39"
+      }
+    },
+    {
+      "source": "S29 D36 V4 G1 Aa2 D2 Z1 Aa28 D46 W24 Y1",
+      "transliteration": "sꜥwꜣ ḥr qd",
+      "target": "werde vollständig zum Gären gebracht.",
+      "lKey": "128740 108220",
+      "wordClass": "verb_caus_3-lit adverb",
+      "flexCode": "10910 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "A3SCLECB6ZH23OARP74WFWLFAU",
+        "id_sentence": "IBcBSXWN4RZwwUG1uDOgcgQKcUY",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_918_263"
+      }
+    },
+    {
+      "source": "M17 Z7 M17 O4 Aa2 G37 O4 G1 M17 M17 D54 D21 N29 G1 D58 F46 F51 U5 D36 Y1 N35 F22 Z7 M17 M17 X1 F51",
+      "transliteration": "jw jh hꜣi̯.y r qꜣb mꜣꜥ n pḥ,wyt",
+      "target": "Dieses Leiden ist hinabgestiegen zum Mastdarm und zum Rektum.",
+      "lKey": "21881 174 97350 91901 159320 78873 61520",
+      "wordClass": "particle substantive_masc verb_3-inf preposition substantive preposition substantive_fem",
+      "flexCode": "3 3 20041 3 3 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "FA35BEUTGJCLFB7EXS3WC4IKLM",
+        "id_sentence": "IBUBdyGXsjbLSkBeuzkoflgWXZg",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_1686_60"
+      }
+    },
+    {
+      "source": "D37 D37 S29 N35 Z2 D35 F36 G1 F51 I9",
+      "transliteration": "ḏḏ =sn n zmꜣ =f",
+      "target": "Zu seiner Lunge führen sie.",
+      "lKey": "96700 10100 78873 134170 10050",
+      "wordClass": "verb_irr personal_pronoun preposition substantive_masc personal_pronoun",
+      "flexCode": "10109 3 3 70054 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "G4RBISLJFVEMLJJZCGNLVQCCVU",
+        "id_sentence": "IBYCeJFLBylyTkpahJ5Vsi9zNsw",
+        "language": "",
+        "date": "17. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_1808_81"
+      }
+    },
+    {
+      "source": "N35 X1 N37 N35A A24 G17 N35A O29 Y1 G36 D21 X1 G17 M12 G1 Z7 Z4 N2",
+      "transliteration": "ntš m mw ꜥꜣ wr,t m ḫꜣwj",
+      "target": "werde am Abend mit sehr viel Wasser besprengt.",
+      "lKey": "90100 64364 69000 450158 450161 64365 113750",
+      "wordClass": "verb_3-lit preposition substantive_masc adjective adverb preposition substantive_masc",
+      "flexCode": "10910 3 3 71010 3 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "JR63HPLMQRDCTITNGOF5UD64QI",
+        "id_sentence": "IBcCCI3fVVatJEOMsQu61flqTzc",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_4550_16"
+      }
+    },
+    {
+      "source": "Aa27 W24 D40 D2 Z1 M17 D21 Q3 Z7 N35A W22 Z2 Z1",
+      "transliteration": "nḏ ḥr jrp 1",
+      "target": "Werde zerrieben in Wein: 1.",
+      "lKey": "90880 400090 29740 850814",
+      "wordClass": "verb_2-lit preposition substantive_masc cardinal",
+      "flexCode": "10910 3 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "MYJ6W5WA6JFGFNP4YXMT67MYYM",
+        "id_sentence": "IBcCKNLoEgXqokWonHMFVC9wXIc",
+        "language": "traditionelles Mittelägyptisch",
+        "date": "19. Dynastie - 20. Dynastie",
+        "script": "Neuhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_4987_168"
+      }
+    },
+    {
+      "source": "D35 N35 W24 V31 A1 F32 D46 D58 Z7 T30 D40 X1 Z7",
+      "transliteration": "nn jnk ẖdb tw",
+      "target": "Nicht ich bin es, der dich töten wird.",
+      "lKey": "851961 27940 124950 851182",
+      "wordClass": "particle personal_pronoun verb_3-lit personal_pronoun",
+      "flexCode": "3 3 30010 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "OHMIH25V7FHTDJL5QMUKQSSJWY",
+        "id_sentence": "IBcCI3Lb7a6dw0P6ilCXUIWzj9Y",
+        "language": "traditionelles Mittelägyptisch",
+        "date": "19. Dynastie - 20. Dynastie",
+        "script": "Neuhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_5184_146"
+      }
+    },
+    {
+      "source": "S29 O4 D21 X1 N33 Z2 Z1 U7 D21 V28 X1 W24 N33 G38 Z1 L1 D21 N35 L2 X1 W24 Z2 Z1",
+      "transliteration": "shr,t 1 mrḥ,t ꜣpd 1 ḫpr n bj,t 1",
+      "target": "$shr.t$Harz : 1, Gänsefett: 1, Entstandenes vom Honig: 1.",
+      "lKey": "140160 850814 72840 107 850814 865676 79800 54210 850814",
+      "wordClass": "substantive cardinal substantive_fem substantive_masc cardinal substantive_masc nisbe_adjective_preposition substantive_fem cardinal",
+      "flexCode": "3 3 70060 3 3 3 71010 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "REED47N2PNGD5HULYWF4VHCJPA",
+        "id_sentence": "IBYCcalrQNj8mU5zvqkWNicE0QA",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_5570_214"
+      }
+    },
+    {
+      "source": "U13 N35 Z4 M1A F31 S29 D46 G17 X1 N33 Z2 N35A",
+      "transliteration": "hbnj msdm,t mw",
+      "target": "Afrikanisches Ebenholz, Bleiglanz, Wasser.",
+      "lKey": "98180 76190 69000",
+      "wordClass": "substantive_masc substantive_fem substantive_masc",
+      "flexCode": "3 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "REED47N2PNGD5HULYWF4VHCJPA",
+        "id_sentence": "IBYCcfF8Gfgd5UQwkHbrcTmpVoU",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_5570_309"
+      }
+    },
+    {
+      "source": "Aa1 X1 G17 S20 A24 D2 Z1 L1 D21 I10 O34 I9 N35 L2 X1 W24 Z2",
+      "transliteration": "ḫtm ḥr ḫpr ḏs=f n bj,t",
+      "target": "werde in Selbstentstandenes vom Honig eingeschlossen.",
+      "lKey": "121710 400090 863033 79800 860123",
+      "wordClass": "verb_3-lit preposition substantive_masc nisbe_adjective_preposition substantive_masc",
+      "flexCode": "10910 3 3 71010 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "REED47N2PNGD5HULYWF4VHCJPA",
+        "id_sentence": "IBYCcbpyOQlCLk9ZtJaPFLPPkQ4",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_5570_371"
+      }
+    },
+    {
+      "source": "D46 D21 D40 O34 D21 I9 X1 Aa2 Z2",
+      "transliteration": "dr srf,t",
+      "target": "Beseitigen einer $srf.t$Hautentzündung.",
+      "lKey": "180130 139450",
+      "wordClass": "verb_2-lit substantive_fem",
+      "flexCode": "61000 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "RLYWKUYPBJBADB4LFVGQYD4EQM",
+        "id_sentence": "IBYBlk7VZBvzIk0dhDNeYJub7GM",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "Amenemhet III. Nimaatre - 13. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_5609_31"
+      }
+    },
+    {
+      "source": "D21 D36 D21 I9 D21 N5 2 2",
+      "transliteration": "rḏi̯ r =f r hrw 4",
+      "target": "Werde daran gegeben 4 Tage lang.",
+      "lKey": "96700 91901 10050 400030 99060 850814",
+      "wordClass": "verb_irr preposition personal_pronoun preposition substantive_masc cardinal",
+      "flexCode": "10910 93004 3 3 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "RQ6NFFAST5FNVMYBYI3PS2NMKA",
+        "id_sentence": "IBYDVB1yPhYtdUEYhTHw8MjRSXk",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_5626_2"
+      }
+    },
+    {
+      "source": "G41 M17 M17 X1 N33 Z2 Z1 V28 S29 Y5 N35 U32 N33 Z2 Z1 Ff4 Z1 N35 V49A D46 X1 M1A Z1",
+      "transliteration": "qmy,t 1 ḥsmn 1 ḏrḏ n šnd,t 1",
+      "target": "Gummiharz: 1, Natron: 1, Blätter der Dornakazie: 1.",
+      "lKey": "160800 850814 110020 850814 185150 79800 156510 850814",
+      "wordClass": "substantive cardinal substantive_masc cardinal substantive_masc nisbe_adjective_preposition substantive_fem cardinal",
+      "flexCode": "3 3 3 3 3 71010 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "RQ6NFFAST5FNVMYBYI3PS2NMKA",
+        "id_sentence": "IBYDVLGAvlQNCE8Yv6KWbrGj1Kk",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_5626_103"
+      }
+    },
+    {
+      "source": "G1 W19 M17 Z7 A24 D2 Z1 L1 D21 N35 M30 M17 Z7 W24 Z2",
+      "transliteration": "ꜣmj.w ḥr ḫpr n bnj,w",
+      "target": "Werde mit Gegorenem von Dattelsaft vermengt.",
+      "lKey": "136 400093 865676 79800 55570",
+      "wordClass": "verb_3-lit preposition substantive_masc nisbe_adjective_preposition substantive_masc",
+      "flexCode": "10940 3 3 71010 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "VHBZCYNQQJFDTGWMX34USAHENE",
+        "id_sentence": "IBcAQJPsSBhKiUiehHygW5Zeqfk",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_6149_30"
+      }
+    },
+    {
+      "source": "D35 G28 G17 N35 O34 N31 X1 Z1 N35 X1 O1 D21 X1 D54",
+      "transliteration": "n gmi̯.n =s wꜣ,t n.t pri̯.t",
+      "target": "Es findet keinen Weg des Herauskommens.",
+      "lKey": "850806 167210 10090 42490 79800 60920",
+      "wordClass": "particle verb_3-inf personal_pronoun substantive_fem nisbe_adjective_preposition verb_3-inf",
+      "flexCode": "3 110385 3 3 71020 61300",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "VQIUBI5MUFFMXHUXJUQBIBZSOU",
+        "id_sentence": "IBYBiXggGtNxWUcFiBWuWJR4Tlk",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_6186_15"
+      }
+    },
+    {
+      "source": "O1 D21 M17 M17 D54 A1 D21 Q3 X1 N1",
+      "transliteration": "pri̯.y =j r p,t",
+      "target": "Ich werde zum Himmel kommen.",
+      "lKey": "60920 10030 91901 58710",
+      "wordClass": "verb_3-inf personal_pronoun preposition substantive_fem",
+      "flexCode": "10161 3 3 3",
+      "metadata": {
+        "source_lang": "ea",
+        "target_lang": "de",
+        "id_datapoint": "YQX5S6WJANF7RPBLHLXYKGAIQI",
+        "id_sentence": "IBUBd6ZkQ7nJ50l6g7bR3vvJQWc",
+        "language": "frühes und klassisches Mittelägyptisch",
+        "date": "17. Dynastie - 18. Dynastie",
+        "script": "Mittelhieratische Buchschrift",
+        "id_tree": "aaew_corpus_sawmedizin_6637_108"
+      }
+    }
+  ]
+}

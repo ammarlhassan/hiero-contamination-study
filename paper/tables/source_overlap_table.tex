@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Target Tier} & \textbf{n} & \textbf{Mean} & \textbf{Median} & \textbf{Src $\geq$70\%} \\
+                     &   & \textbf{Src Ov.} & \textbf{Src Ov.} & \textbf{(\%)} \\
+\midrule
+Exact match          & 16 & 0.883 & 1.000 & 87.5\% \\
+Soft (70--99\%)      &  9 & 0.557 & 0.483 & 33.3\% \\
+Clean ($<$70\%)      & 25 & 0.543 & 0.524 & 24.0\% \\
+\midrule
+All                  & 50 & 0.654 & 0.609 & 46.0\% \\
+\bottomrule
+\end{tabular}
+\caption{Source-side character 8-gram overlap between test and training samples,
+cross-tabulated by target contamination tier.
+High source overlap for exact-target samples is explained by formulaic repetition:
+medical prescription imperatives (e.g., ``Werde getrunken.'', 160 training occurrences;
+``Werde gekocht.'', 115 occurrences) appear under many similar short sources.
+Critically, causal analysis shows that 10/16 exact-target samples have
+contaminating training targets under \emph{completely different} source contexts
+($<$5\% source similarity), directly demonstrating target memorization rather
+than source-driven pattern matching.}
+\label{tab:source-overlap}
+\end{table*}

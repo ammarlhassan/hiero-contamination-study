@@ -1,0 +1,612 @@
+{
+  "exact_match_rate": 0.16,
+  "normalized_match_rate": 0.18,
+  "high_similarity_90": 0.27,
+  "high_similarity_95": 0.22,
+  "clean_samples_ge_95": 6,
+  "clean_samples_ge_90": 11,
+  "clean_mean_similarity": 0.7523210985319955,
+  "clean_max_similarity": 0.9915171265602112,
+  "per_sample": [
+    {
+      "target": "So handelst du dagegen:",
+      "exact_match": true,
+      "normalized_match": true,
+      "top1_similarity": 1.000000238418579
+    },
+    {
+      "target": "M\u00f6gen ihn die in Tawer Befindlichen und die Priester des gro",
+      "exact_match": true,
+      "normalized_match": true,
+      "top1_similarity": 1.0000001192092896
+    },
+    {
+      "target": "Werde zermahlen.",
+      "exact_match": true,
+      "normalized_match": true,
+      "top1_similarity": 1.0000001192092896
+    },
+    {
+      "target": "Werde getrunken.",
+      "exact_match": true,
+      "normalized_match": true,
+      "top1_similarity": 1.0
+    },
+    {
+      "target": "Werde fein zermahlen;",
+      "exact_match": true,
+      "normalized_match": true,
+      "top1_similarity": 1.0
+    },
+    {
+      "target": "Werde fein zerrieben.",
+      "exact_match": true,
+      "normalized_match": true,
+      "top1_similarity": 1.0
+    },
+    {
+      "target": "what is on him is to be taken away,",
+      "exact_match": true,
+      "normalized_match": true,
+      "top1_similarity": 0.9999998807907104
+    },
+    {
+      "target": "Daraufhin sagte ich zu ihr:",
+      "exact_match": true,
+      "normalized_match": true,
+      "top1_similarity": 0.9999998807907104
+    },
+    {
+      "target": "Daraufhin sagten sie:",
+      "exact_match": true,
+      "normalized_match": true,
+      "top1_similarity": 0.9999998211860657
+    },
+    {
+      "target": "Werde daran gegeben.",
+      "exact_match": true,
+      "normalized_match": true,
+      "top1_similarity": 0.9999998211860657
+    },
+    {
+      "target": "Werde zerkleinert.",
+      "exact_match": true,
+      "normalized_match": true,
+      "top1_similarity": 0.9999998211860657
+    },
+    {
+      "target": "Werde gekocht.",
+      "exact_match": true,
+      "normalized_match": true,
+      "top1_similarity": 0.9999998211860657
+    },
+    {
+      "target": "Werde getrunken, vier Tage lang.",
+      "exact_match": true,
+      "normalized_match": true,
+      "top1_similarity": 0.9999997615814209
+    },
+    {
+      "target": "Werde damit verbunden.",
+      "exact_match": true,
+      "normalized_match": true,
+      "top1_similarity": 0.9999997615814209
+    },
+    {
+      "target": "Werde \u00fcber 4 Tage hinweg getrunken.",
+      "exact_match": true,
+      "normalized_match": true,
+      "top1_similarity": 0.9999997615814209
+    },
+    {
+      "target": "Werde darauf gegeben.",
+      "exact_match": true,
+      "normalized_match": true,
+      "top1_similarity": 0.9999996423721313
+    },
+    {
+      "target": "der Nordwind m\u00f6ge f\u00fcr dich heulen.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.9915171265602112
+    },
+    {
+      "target": "Werde daran gegeben 4 Tage lang.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.977474570274353
+    },
+    {
+      "target": "Werde gegessen, einen Tag lang.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.9679982662200928
+    },
+    {
+      "target": "der Herr der St\u00e4rke, w\u00e4hrend er die Wereret-Krone empf\u00e4ngt,",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.9510085582733154
+    },
+    {
+      "target": "Feiere einen sch\u00f6nen Tag, Paser!",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.9502099752426147
+    },
+    {
+      "target": "Werde in \u00d6l gegeben.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.9500593543052673
+    },
+    {
+      "target": "I satisfied my god with that which he liked.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.939611554145813
+    },
+    {
+      "target": "O, yet the face is pale,",
+      "exact_match": false,
+      "normalized_match": true,
+      "top1_similarity": 0.9322861433029175
+    },
+    {
+      "target": "may he travel through the sky.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.9296008348464966
+    },
+    {
+      "target": "Werde jede schmerzende Stelle damit verbunden.",
+      "exact_match": false,
+      "normalized_match": true,
+      "top1_similarity": 0.925950288772583
+    },
+    {
+      "target": "Hunderte opfern ihm.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.9012627601623535
+    },
+    {
+      "target": "Tetis Ur\u00e4en sind an seinem Scheitel.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.8926719427108765
+    },
+    {
+      "target": "Werde zerrieben in Wein: 1.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.8908516764640808
+    },
+    {
+      "target": "werde in Selbstentstandenes vom Honig eingeschlossen.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.8790595531463623
+    },
+    {
+      "target": "Stechholz.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.8674935102462769
+    },
+    {
+      "target": "Teti ist gekr\u00f6nt als Herr des Horizontes.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.8658345937728882
+    },
+    {
+      "target": "Beseitigen einer $srf.t$Hautentz\u00fcndung.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.8603706955909729
+    },
+    {
+      "target": "$shr.t$Harz : 1, G\u00e4nsefett: 1, Entstandenes vom Honig: 1.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.8416736125946045
+    },
+    {
+      "target": "fear repels one who acts against your enemies.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.8339440822601318
+    },
+    {
+      "target": "Der Kopf eines Mannes oder einer Frau werde damit eingeriebe",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.8256337642669678
+    },
+    {
+      "target": "Ihre Zauberkraft ist im Bauch des Teti.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.8237980604171753
+    },
+    {
+      "target": "I was a leader of works in the temple,",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.8115078806877136
+    },
+    {
+      "target": "werde am Abend mit sehr viel Wasser besprengt.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.8113861083984375
+    },
+    {
+      "target": "a trusted one of his lord in front of his land,his confidant",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.8102567791938782
+    },
+    {
+      "target": "Don't tread here;",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.8083174228668213
+    },
+    {
+      "target": "Zu seiner Lunge f\u00fchren sie.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.8078193664550781
+    },
+    {
+      "target": "So it is,",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7876101136207581
+    },
+    {
+      "target": "Water, 1 menza-jar.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7866775989532471
+    },
+    {
+      "target": "M\u00f6ge deiner gedacht werden vor dem Unversehrt Erwachenden!",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7864348888397217
+    },
+    {
+      "target": "Dieses Leiden ist hinabgestiegen zum Mastdarm und zum Rektum",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7838977575302124
+    },
+    {
+      "target": "Die B\u00e4ume zersplitterten,",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7829389572143555
+    },
+    {
+      "target": "and another is heated.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7761642932891846
+    },
+    {
+      "target": "leader of the great ones of Upper and Lower Egypt,",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7745364904403687
+    },
+    {
+      "target": "seine Knochen waren aus Silber,",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7662009596824646
+    },
+    {
+      "target": "Alles Gute ist verschwunden.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7653069496154785
+    },
+    {
+      "target": "Is it Libyans?",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.764040470123291
+    },
+    {
+      "target": "Gummiharz: 1, Natron: 1, Bl\u00e4tter der Dornakazie: 1.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7635102272033691
+    },
+    {
+      "target": "he is seized, laden with his things;",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7625975012779236
+    },
+    {
+      "target": "Utterance, Perception, and Truth are with you,",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7624764442443848
+    },
+    {
+      "target": "Werde mit Gegorenem von Dattelsaft vermengt.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7619762420654297
+    },
+    {
+      "target": "one who listens to his speech, dispels his misery;",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7474316358566284
+    },
+    {
+      "target": "I am one rich in goodness and nobility;",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7449966669082642
+    },
+    {
+      "target": "one who makes powerless the rebel against the king,",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7432913780212402
+    },
+    {
+      "target": "Look, he who could not slaughter for himself slaughters shor",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7407729625701904
+    },
+    {
+      "target": "may the West lend him her arms.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7367976307868958
+    },
+    {
+      "target": "the Great God has ordered that you shall exist on earth unde",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7338194847106934
+    },
+    {
+      "target": "Werden seine beiden Seiten eingerieben.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7317663431167603
+    },
+    {
+      "target": "Nicht ich bin es, der dich t\u00f6ten wird.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7302305698394775
+    },
+    {
+      "target": "Afrikanisches Ebenholz, Bleiglanz, Wasser.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7301658391952515
+    },
+    {
+      "target": "O, yet mild men say:",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7277349233627319
+    },
+    {
+      "target": "andere kommen an ihre Stelle.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.726049542427063
+    },
+    {
+      "target": "O, yet the servants thereof, their hearts are saddened;",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7215425968170166
+    },
+    {
+      "target": "Ich werde zum Himmel kommen.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7167716026306152
+    },
+    {
+      "target": "one who gave lies to the one who told them, and truth to the",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7141613960266113
+    },
+    {
+      "target": "Director of works in Upper Egypt,",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7052121162414551
+    },
+    {
+      "target": "when ways are open.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.7023695111274719
+    },
+    {
+      "target": "werde vollst\u00e4ndig zum G\u00e4ren gebracht.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6915295124053955
+    },
+    {
+      "target": "Is he strong, that he might save himself?",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6908819079399109
+    },
+    {
+      "target": "Es gibt nichts, was ich nicht wusste.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6896902322769165
+    },
+    {
+      "target": "I gave the lie to one who said it, truth to the one who came",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6892504096031189
+    },
+    {
+      "target": "Look, he who had no dependants is the possessor of subordina",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.685702919960022
+    },
+    {
+      "target": "In that case he will live!",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.680273175239563
+    },
+    {
+      "target": "one free of wrongdoing,",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6773931980133057
+    },
+    {
+      "target": "Look, a man is slain at his brother's side;",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6756225824356079
+    },
+    {
+      "target": "May this person praise you!",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6739152669906616
+    },
+    {
+      "target": "Es findet keinen Weg des Herauskommens.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6630709171295166
+    },
+    {
+      "target": "discrete concerning the business of the palace,",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6562312841415405
+    },
+    {
+      "target": "What the pyramid hid has come to be empty.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6511520147323608
+    },
+    {
+      "target": "You will be an imperishable star, a star that is in the star",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6451275944709778
+    },
+    {
+      "target": "their limbs saddened because of old clothes,",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6420646905899048
+    },
+    {
+      "target": "Tetis Hemsut sind unter seinen F\u00fc\u00dfen.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6377468109130859
+    },
+    {
+      "target": "Destroyed is gold,",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6369823217391968
+    },
+    {
+      "target": "the outside bow-people have come to Egypt.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6333663463592529
+    },
+    {
+      "target": "The many slay the few.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6257681846618652
+    },
+    {
+      "target": "Remember the chewing of natron, the preparing of white bread",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6206656694412231
+    },
+    {
+      "target": "and the child of his lady becomes the son of his maidservant",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6095395088195801
+    },
+    {
+      "target": "Look, the owners of sepulchres are repelled onto the high gr",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.6071812510490417
+    },
+    {
+      "target": "One says: The state thereof is finished for them.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.5996674299240112
+    },
+    {
+      "target": "there was no one who would remember it.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.5841724276542664
+    },
+    {
+      "target": "I organised a great procession and followed the god on his c",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.5826804041862488
+    },
+    {
+      "target": "who gives nourishment and promotes offices,",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.5506719350814819
+    },
+    {
+      "target": "and want is everywhere.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.5468536615371704
+    },
+    {
+      "target": "I know that which is useful in the necropolis.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.5302350521087646
+    },
+    {
+      "target": "She gave birth to a family of 12.",
+      "exact_match": false,
+      "normalized_match": false,
+      "top1_similarity": 0.49245399236679077
+    }
+  ]
+}

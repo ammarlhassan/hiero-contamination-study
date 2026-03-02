@@ -1,0 +1,165 @@
+\begin{thebibliography}{21}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Abbas et~al.(2026)Abbas, Shamaa, and Awad}]{abbas2026obscuring}
+Chaymaa Abbas, Nour Shamaa, and Mariette Awad. 2026.
+\newblock \href {https://arxiv.org/abs/2601.14994} {Obscuring data
+  contamination through translation: Evidence from arabic corpora}.
+\newblock \emph{arXiv preprint arXiv:2601.14994}.
+
+\bibitem[{Barucci et~al.(2021)Barucci, Cucci, Franci, Loschiavo, and
+  Argenti}]{barucci2021deep}
+Andrea Barucci, Costanza Cucci, Franco Franci, Marco Loschiavo, and Fabrizio
+  Argenti. 2021.
+\newblock A deep learning approach to ancient {E}gyptian hieroglyphs
+  classification.
+\newblock \emph{IEEE Access}, 9:123438--123447.
+
+\bibitem[{Chen et~al.(2024)Chen, Shi, Agarwal, Myerston, and
+  Berg-Kirkpatrick}]{chen2024logogramnlp}
+Danlu Chen, Freda Shi, Aditi Agarwal, Jacobo Myerston, and Taylor
+  Berg-Kirkpatrick. 2024.
+\newblock \href {https://arxiv.org/abs/2408.04628} {{LogogramNLP}: Comparing
+  visual and textual representations of ancient logographic writing systems for
+  {NLP}}.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 14148--14167.
+  Association for Computational Linguistics.
+
+\bibitem[{De~Cao et~al.(2024)De~Cao, De~Cao, Colonna, and
+  Lenci}]{decao2024deep}
+Mattia De~Cao, Nicola De~Cao, Angelo Colonna, and Alessandro Lenci. 2024.
+\newblock Deep learning meets egyptology: A hieroglyphic transformer for
+  translating ancient egyptian.
+\newblock \emph{Digital Scholarship in the Humanities}.
+
+\bibitem[{Dekoninck et~al.(2024)Dekoninck, M{\"u}ller, and
+  Vechev}]{dekoninck2024constat}
+Jasper Dekoninck, Mark~Niklas M{\"u}ller, and Martin Vechev. 2024.
+\newblock \href {https://arxiv.org/abs/2405.16281} {{ConStat}:
+  Performance-based contamination detection in large language models}.
+\newblock \emph{arXiv preprint arXiv:2405.16281}.
+
+\bibitem[{Dong et~al.(2024)Dong, Jiang, Liu, Jin, Gu, Yang, and
+  Li}]{dong2024generalization}
+Yihong Dong, Xue Jiang, Huanyu Liu, Zhi Jin, Bin Gu, Mengfei Yang, and Ge~Li.
+  2024.
+\newblock \href {https://arxiv.org/abs/2402.15938} {Generalization or
+  memorization: Data contamination and trustworthy evaluation for large
+  language models}.
+\newblock \emph{arXiv preprint arXiv:2402.15938}.
+
+\bibitem[{Enis and Hopkins(2024)}]{enis2024llm2nmt}
+Maxim Enis and Mark Hopkins. 2024.
+\newblock \href {https://arxiv.org/abs/2404.13813} {From {LLM} to {NMT}:
+  Advancing low-resource machine translation with claude}.
+\newblock \emph{arXiv preprint arXiv:2404.13813}.
+
+\bibitem[{Fan et~al.(2021)Fan, Bhosale, Schwenk, Ma, El-Kishky, Goyal, Baines,
+  Celebi, Wenzek, Chaudhary, Goyal, Birch, Liptchinsky, Edunov, Grave, Auli,
+  and Joulin}]{fan2021beyond}
+Angela Fan, Shruti Bhosale, Holger Schwenk, Zhiyi Ma, Ahmed El-Kishky,
+  Siddharth Goyal, Mandeep Baines, Onur Celebi, Guillaume Wenzek, Vishrav
+  Chaudhary, Naman Goyal, Tom Birch, Vitaliy Liptchinsky, Sergey Edunov,
+  Edouard Grave, Michael Auli, and Armand Joulin. 2021.
+\newblock Beyond english-centric multilingual machine translation.
+\newblock \emph{Journal of Machine Learning Research}, 22(107):1--48.
+
+\bibitem[{Franken and van Gemert(2013)}]{franken2013automatic}
+Morris Franken and Jan~C van Gemert. 2013.
+\newblock Automatic {E}gyptian hieroglyph recognition by retrieving images as
+  texts.
+\newblock In \emph{Proceedings of the 21st ACM International Conference on
+  Multimedia}, pages 765--768.
+
+\bibitem[{Gutherz et~al.(2023)Gutherz, Gordin, S{\'a}enz, Levy, and
+  Berant}]{gutherz2023translating}
+Gai Gutherz, Shai Gordin, Luis S{\'a}enz, Omer Levy, and Jonathan Berant. 2023.
+\newblock Translating {A}kkadian to {E}nglish with neural machine translation.
+\newblock \emph{PNAS Nexus}, 2(5):pgad096.
+
+\bibitem[{Kocyigit et~al.(2025)Kocyigit, Briakou, Deutsch, Luo, Cherry, and
+  Freitag}]{kocyigit2025overestimation}
+Muhammed~Yusuf Kocyigit, Eleftheria Briakou, Daniel Deutsch, Jiaming Luo, Colin
+  Cherry, and Markus Freitag. 2025.
+\newblock Overestimation in {LLM} evaluation: A controlled large-scale study on
+  data contamination's impact on machine translation.
+\newblock \emph{arXiv preprint arXiv:2501.18771}.
+
+\bibitem[{Magar and Schwartz(2022)}]{magar2022data}
+Inbal Magar and Roy Schwartz. 2022.
+\newblock Data contamination: From memorization to exploitation.
+\newblock In \emph{Proceedings of the 60th Annual Meeting of the Association
+  for Computational Linguistics}, pages 157--165.
+
+\bibitem[{Oren et~al.(2023)Oren, Meister, Chatterji, Ladhak, and
+  Hashimoto}]{oren2023proving}
+Yonatan Oren, Nicole Meister, Niladri Chatterji, Faisal Ladhak, and
+  Tatsunori~B. Hashimoto. 2023.
+\newblock \href {https://arxiv.org/abs/2310.17623} {Proving test set
+  contamination in black box language models}.
+\newblock \emph{arXiv preprint arXiv:2310.17623}.
+
+\bibitem[{Pineau et~al.(2021)Pineau, Vincent-Lamarre, Sinha, Larivi{\`e}re,
+  Beygelzimer, d'Alch{\'e} Buc, Fox, and Larochelle}]{pineau2021improving}
+Joelle Pineau, Philippe Vincent-Lamarre, Koustuv Sinha, Vincent Larivi{\`e}re,
+  Alina Beygelzimer, Florence d'Alch{\'e} Buc, Emily Fox, and Hugo Larochelle.
+  2021.
+\newblock Improving reproducibility in machine learning research: A report from
+  the {NeurIPS} 2019 reproducibility program.
+\newblock \emph{Journal of Machine Learning Research}, 22(164):1--20.
+
+\bibitem[{Popel et~al.(2020)Popel, Tomkova, Tomek, Kaiser, Uszkoreit, Bojar,
+  and {\v{Z}}abokrtsk{\'y}}]{popel2020transforming}
+Martin Popel, Marketa Tomkova, Jakub Tomek, {\L}ukasz Kaiser, Jakob Uszkoreit,
+  Ond{\v{r}}ej Bojar, and Zden{\v{e}}k {\v{Z}}abokrtsk{\'y}. 2020.
+\newblock Transforming machine translation: A deep learning system reaches news
+  translation quality comparable to human professionals.
+\newblock \emph{Nature Communications}, 11(1):4381.
+
+\bibitem[{Popovi{\'c}(2015)}]{popovic2015chrf}
+Maja Popovi{\'c}. 2015.
+\newblock chr{F}: character n-gram {F}-score for automatic {MT} evaluation.
+\newblock In \emph{Proceedings of the Tenth Workshop on Statistical Machine
+  Translation}, pages 392--395.
+
+\bibitem[{Post(2018)}]{post2018call}
+Matt Post. 2018.
+\newblock A call for clarity in reporting {BLEU} scores.
+\newblock In \emph{Proceedings of the Third Conference on Machine Translation:
+  Research Papers}, pages 186--191.
+
+\bibitem[{Rei et~al.(2022)Rei, C.~de Souza, Alves, Zerva, Farinha, Glushkova,
+  Lavie, Coheur, and Martins}]{rei2022comet}
+Ricardo Rei, Jos{\'e}~G. C.~de Souza, Duarte Alves, Chrysoula Zerva, Ana~C
+  Farinha, Taisiya Glushkova, Alon Lavie, Luisa Coheur, and Andr{\'e} F.~T.
+  Martins. 2022.
+\newblock Comet-22: Unbabel-ist 2022 submission for the metrics shared task.
+\newblock In \emph{Proceedings of the Seventh Conference on Machine Translation
+  (WMT)}, pages 578--585. Association for Computational Linguistics.
+
+\bibitem[{Sommerschield et~al.(2023)Sommerschield, Assael, Pavlopoulos,
+  Stefanak, Senior, Dyer, Bodel, Prag, Androutsopoulos, and
+  de~Freitas}]{sommerschield2023machine}
+Thea Sommerschield, Yannis Assael, John Pavlopoulos, Vanessa Stefanak, Andrew
+  Senior, Chris Dyer, John Bodel, Jonathan Prag, Ion Androutsopoulos, and Nando
+  de~Freitas. 2023.
+\newblock Machine learning for ancient languages: A survey.
+\newblock \emph{Computational Linguistics}, 49(3):703--747.
+
+\bibitem[{Tan et~al.(2026)Tan, Chen, van Genabith, and
+  Chowdhury}]{tan2026flores}
+David Tan, Pinzhen Chen, Josef van Genabith, and Koel~Dutta Chowdhury. 2026.
+\newblock \href {https://arxiv.org/abs/2601.20858} {When flores bloomz wrong:
+  Cross-direction contamination in machine translation evaluation}.
+\newblock In \emph{Proceedings of the 18th Conference of the European Chapter
+  of the Association for Computational Linguistics (EACL 2026)}.
+
+\bibitem[{Wiesenbach and Riezler(2019)}]{wiesenbach2019multi}
+Philipp Wiesenbach and Stefan Riezler. 2019.
+\newblock Multi-task modeling of phonographic languages: Translating middle
+  {E}gyptian hieroglyphs.
+\newblock In \emph{Proceedings of the 16th International Conference on Spoken
+  Language Translation}.
+
+\end{thebibliography}

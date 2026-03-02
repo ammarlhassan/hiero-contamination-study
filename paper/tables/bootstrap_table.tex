@@ -1,0 +1,21 @@
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llccc}
+\toprule
+\textbf{Model} & \textbf{Subset} & \textbf{n} & \textbf{BLEU} & \textbf{chrF++} \\
+\midrule
+\multirow{3}{*}{Released} & All & 50 & 28.7 [18.8, 39.0] & 55.8 [48.1, 63.4] \\
+ & Contaminated & 16 & 57.7 [29.7, 89.6] & 83.7 [72.1, 95.5] \\
+ & Clean & 34 & 21.8 [11.7, 33.0] & 47.2 [38.9, 56.2] \\
+\midrule
+\multirow{3}{*}{Retrained} & All & 50 & 41.9 [29.1, 55.5] & 64.0 [55.1, 72.2] \\
+ & Contaminated & 16 & 82.4 [54.5, 100.0] & 92.7 [83.3, 100.0] \\
+ & Clean & 34 & 31.0 [20.0, 43.2] & 54.5 [46.0, 63.5] \\
+\midrule
+\bottomrule
+\end{tabular}
+\caption{Translation quality with 95\% bootstrap confidence intervals (1000 iterations). CI format: mean [lower, upper].}
+\label{tab:bootstrap-results}
+\end{table}

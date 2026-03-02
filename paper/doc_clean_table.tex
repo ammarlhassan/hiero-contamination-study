@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{All} & \textbf{Exact} & \textbf{Soft} & \textbf{Clean} \\
+               & \textbf{(n=50)} & \textbf{(n=16)} & \textbf{(n=9)} & \textbf{(n=25)} \\
+\midrule
+M2M-100 Conservative & 47.3 & 77.9 & 35.3 & 39.6 \\
+\quad Doc-Clean retrain & 45.2 & 73.3 & 30.7 & \textbf{40.3} \\
+\midrule
+$\Delta$ & $-$2.1 & $-$4.6 & $-$4.6 & $+$0.7 \\
+\bottomrule
+\end{tabular}
+\caption{BLEU scores before and after document-level decontamination (M2M-100 Conservative re-trained on 13,365 samples with test-source documents excluded). Exact: 16 samples with 100\% 8-gram coverage; Soft: 9 samples with 70--99\% coverage; Clean: 25 samples below threshold. Despite removing 28.4\% of training data, exact-match BLEU drops only 4.6 points, because 8/16 contaminated targets persist in training from other source documents.}
+\label{tab:doc-clean}
+\end{table*}

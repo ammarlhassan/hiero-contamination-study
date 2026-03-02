@@ -1,0 +1,433 @@
+{
+  "method": "character_8gram_retrieval",
+  "description": "For each test sample, predict the most frequent training target with highest 8-gram coverage",
+  "uncapped": {
+    "all": 15.0,
+    "contaminated": 81.8,
+    "clean": 10.0
+  },
+  "by_threshold": {
+    "0.5": {
+      "all": 23.4,
+      "contaminated": 81.8,
+      "clean": 14.5
+    },
+    "0.7": {
+      "all": 24.9,
+      "contaminated": 81.8,
+      "clean": 5.8
+    },
+    "0.9": {
+      "all": 8.7,
+      "contaminated": 81.8,
+      "clean": 0.0
+    },
+    "1.0": {
+      "all": 8.7,
+      "contaminated": 81.8,
+      "clean": 0.0
+    }
+  },
+  "per_sample": [
+    {
+      "idx": 0,
+      "ref": "Tetis Hemsut sind unter seinen Füßen.",
+      "pred": "Schu ist im Bereich der Erde unter seinen Füßen.",
+      "overlap_score": 0.4138,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 1,
+      "ref": "Tetis Uräen sind an seinem Scheitel.",
+      "pred": "Seine Uräen sind an seinem Scheitel.",
+      "overlap_score": 0.8214,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 2,
+      "ref": "Hunderte opfern ihm.",
+      "pred": "[Dein Befinden ist wie das Leben] Millionen Mal, Hunderttausende, Zehntausende, Tausende, Hunderte (und) Einer 〈von Malen〉",
+      "overlap_score": 0.1667,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 3,
+      "ref": "Teti ist gekrönt als Herr des Horizontes.",
+      "pred": "Er ist gekrönt als Herr des Horizontes.",
+      "overlap_score": 0.8788,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 4,
+      "ref": "Ihre Zauberkraft ist im Bauch des Teti.",
+      "pred": "Hapi, Duamutef, Qebehsenuef und Amset vertreiben diesen Hunger, der im Bauch des Teti ist und diesen Durst, der auf den Lippen des Teti ist.",
+      "overlap_score": 0.3548,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 5,
+      "ref": "der Herr der Stärke, während er die Wereret-Krone empfängt,",
+      "pred": "der Herr der Stärke, wenn er die Wer〈er〉et-Krone empfängt,",
+      "overlap_score": 0.7347,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 6,
+      "ref": "Es gibt nichts, was ich nicht wusste.",
+      "pred": "Es gibt nichts, was ich nicht tat.",
+      "overlap_score": 0.7857,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 7,
+      "ref": "andere kommen an ihre Stelle.",
+      "pred": "der Nachwuchs kommt an ihre Stelle.",
+      "overlap_score": 0.381,
+      "is_contaminated": false,
+      "train_freq": 2
+    },
+    {
+      "idx": 8,
+      "ref": "Feiere einen schönen Tag, Paser!",
+      "pred": "Feiere einen schönen Tag, o Gottesvater!",
+      "overlap_score": 0.7826,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 9,
+      "ref": "Daraufhin sagte ich zu ihr:",
+      "pred": "Daraufhin sagte ich zu ihr:",
+      "overlap_score": 1.0,
+      "is_contaminated": true,
+      "train_freq": 1
+    },
+    {
+      "idx": 10,
+      "ref": "Daraufhin sagten sie:",
+      "pred": "Daraufhin sagten sie:",
+      "overlap_score": 1.0,
+      "is_contaminated": true,
+      "train_freq": 2
+    },
+    {
+      "idx": 11,
+      "ref": "Die Bäume zersplitterten,",
+      "pred": "(Diagnose:) Dann sagst du daraufhin über ihn (d.h. den Patienten): \"Einer mit einer klaffenden Wunde in seinem Kopf, die bis zum Knochen reicht – sein (Hirn-)Schädel ist zersplittert/zertrümmert –, 〈wobei er aus seinen Nasenlöchern/Nasenhöhlen und seinen Ohren blutet,〉 (wobei) er an Steifheit/Steifigkeit (wörtl.: Aufrichtung) in seinem Nacken leidet, 〈(und wobei) er nicht in der Lage ist, auf seine Schultern und seine Brust zu blicken〉: eine Krankheit, die man nicht behandeln kann\".",
+      "overlap_score": 0.3529,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 12,
+      "ref": "der Nordwind möge für dich heulen.",
+      "pred": "und der Nordwind möge für dich heulen.",
+      "overlap_score": 1.0,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 13,
+      "ref": "Alles Gute ist verschwunden.",
+      "pred": "Die Kraft ist verschwunden, weil das Herz müde ist.",
+      "overlap_score": 0.5,
+      "is_contaminated": false,
+      "train_freq": 2
+    },
+    {
+      "idx": 14,
+      "ref": "Möge deiner gedacht werden vor dem Unversehrt Erwachenden!",
+      "pred": "Deiner wird gedacht werden als einem mit glücklichem Augenblick,",
+      "overlap_score": 0.18,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 15,
+      "ref": "Mögen ihn die in Tawer Befindlichen und die Priester des großen Gottes erheben.",
+      "pred": "Mögen ihn die in Tawer Befindlichen und die Priester des großen Gottes erheben.",
+      "overlap_score": 1.0,
+      "is_contaminated": true,
+      "train_freq": 1
+    },
+    {
+      "idx": 16,
+      "ref": "seine Knochen waren aus Silber,",
+      "pred": "Schließ doch deine Arme um ihn, um ihn herum, so daß seine Knochen sich dehnen(?) und sein Herz groß wird.",
+      "overlap_score": 0.3043,
+      "is_contaminated": false,
+      "train_freq": 4
+    },
+    {
+      "idx": 17,
+      "ref": "Werde jede schmerzende Stelle damit verbunden.",
+      "pred": "[Werde] jede schmerzende Stelle damit [verbunden].",
+      "overlap_score": 1.0,
+      "is_contaminated": true,
+      "train_freq": 1
+    },
+    {
+      "idx": 18,
+      "ref": "Stechholz.",
+      "pred": "\"Stechholz\", „Großer-Schutz“-Mineral, „Spitzer-Stein“-Mineral, Fett vom Kleinvieh.",
+      "overlap_score": 1.0,
+      "is_contaminated": false,
+      "train_freq": 2
+    },
+    {
+      "idx": 19,
+      "ref": "Werde getrunken, vier Tage lang.",
+      "pred": "Werde getrunken, vier Tage lang.",
+      "overlap_score": 1.0,
+      "is_contaminated": true,
+      "train_freq": 16
+    },
+    {
+      "idx": 20,
+      "ref": "Werden seine beiden Seiten eingerieben.",
+      "pred": "(Glosse B:) Was (die Textstelle) \"seine beiden Nasenlöcher/Nasenhöhlen\" angeht:〈das sind〉 die beiden Seiten(räume?)/Flanken seiner Nase, die bis zu seiner Wange (und) bis hin zum (inneren?) Ende seiner Nase reichen, (und) die 〈an/auf〉 der Oberseite (d.h. Außenseite?) seiner Nase loslassen/aufhören.",
+      "overlap_score": 0.4516,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 21,
+      "ref": "Werde gegessen, einen Tag lang.",
+      "pred": "Werde in den After eingegossen, einen Tag lang.",
+      "overlap_score": 0.5455,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 22,
+      "ref": "Werde daran gegeben.",
+      "pred": "Werde daran gegeben.",
+      "overlap_score": 1.0,
+      "is_contaminated": true,
+      "train_freq": 23
+    },
+    {
+      "idx": 23,
+      "ref": "Werde getrunken.",
+      "pred": "Werde getrunken über 4 Tage hinweg.",
+      "overlap_score": 1.0,
+      "is_contaminated": true,
+      "train_freq": 59
+    },
+    {
+      "idx": 24,
+      "ref": "Der Kopf eines Mannes oder einer Frau werde damit eingerieben.",
+      "pred": "Anfang der Heilmittel zum Beseitigen des $špn$-Phänomens, das den Leib eines Mannes oder einer Frau zusammenschnürt:",
+      "overlap_score": 0.4259,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 25,
+      "ref": "Werde in Öl gegeben.",
+      "pred": "werde in Öl/Fett gegeben.",
+      "overlap_score": 0.4167,
+      "is_contaminated": false,
+      "train_freq": 4
+    },
+    {
+      "idx": 26,
+      "ref": "werde vollständig zum Gären gebracht.",
+      "pred": "Werde vollständig ausgeglüht.",
+      "overlap_score": 0.3793,
+      "is_contaminated": false,
+      "train_freq": 4
+    },
+    {
+      "idx": 27,
+      "ref": "Werde zerkleinert.",
+      "pred": "Werde zerkleinert.",
+      "overlap_score": 1.0,
+      "is_contaminated": true,
+      "train_freq": 2
+    },
+    {
+      "idx": 28,
+      "ref": "Dieses Leiden ist hinabgestiegen zum Mastdarm und zum Rektum.",
+      "pred": "\"Dieses Elend ist hinabgestiegen zum Mastdarm und zum Rektum.",
+      "overlap_score": 0.7547,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 29,
+      "ref": "Zu seiner Lunge führen sie.",
+      "pred": "Vier Gefäße (führen) zu den zwei Ohren, und (???) zwei Gefäße an seine rechte Schulter (und) zwei Gefäße zu seiner linken Schulter.",
+      "overlap_score": 0.3158,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 30,
+      "ref": "werde am Abend mit sehr viel Wasser besprengt.",
+      "pred": "dann muss man ihn folglich ständig mit kühlem Wasser besprengen;",
+      "overlap_score": 0.2368,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 31,
+      "ref": "Werde fein zermahlen;",
+      "pred": "Werde fein zermahlen;",
+      "overlap_score": 1.0,
+      "is_contaminated": true,
+      "train_freq": 21
+    },
+    {
+      "idx": 32,
+      "ref": "Werde zerrieben in Wein: 1.",
+      "pred": "Werde zerrieben in Wasser.",
+      "overlap_score": 0.7222,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 33,
+      "ref": "Nicht ich bin es, der dich töten wird.",
+      "pred": "Horus ist es, der dich töten wird, durch stechen / stoßen (?) [in (?)] dein Herz.",
+      "overlap_score": 0.5517,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 34,
+      "ref": "Werde fein zerrieben.",
+      "pred": "Werde fein zerrieben.",
+      "overlap_score": 1.0,
+      "is_contaminated": true,
+      "train_freq": 6
+    },
+    {
+      "idx": 35,
+      "ref": "Werde damit verbunden.",
+      "pred": "Werde damit verbunden.",
+      "overlap_score": 1.0,
+      "is_contaminated": true,
+      "train_freq": 24
+    },
+    {
+      "idx": 36,
+      "ref": "Werde gekocht.",
+      "pred": "Werde gekocht.",
+      "overlap_score": 1.0,
+      "is_contaminated": true,
+      "train_freq": 48
+    },
+    {
+      "idx": 37,
+      "ref": "$shr.t$Harz : 1, Gänsefett: 1, Entstandenes vom Honig: 1.",
+      "pred": "Eidechsenkot: 1, oberägyptische $sjꜣ$-Droge: 1, Bleiglanz: 1, „Entstandenes“ vom Honig: 1.",
+      "overlap_score": 0.4878,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 38,
+      "ref": "Afrikanisches Ebenholz, Bleiglanz, Wasser.",
+      "pred": "$ẖpꜣ$-Kügelchen (?) des Afrikanischen Ebenholzbaumes: 1, oberägyptische $sjꜣ$-Droge: 1.",
+      "overlap_score": 0.2188,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 39,
+      "ref": "werde in Selbstentstandenes vom Honig eingeschlossen.",
+      "pred": "Roter Ocker: 1/32 (Dja), Ocker: ein viertel (Dja), Bleiglanz: 1/32 (Dja), $snn$-Mineral: 1/16 (Dja), „Selbstentstandenes“ vom Honig: ein viertel und 2 (Dja) (?).",
+      "overlap_score": 0.5778,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 40,
+      "ref": "Beseitigen einer $srf.t$Hautentzündung.",
+      "pred": "Trankmittel zum Beseitigen einer Hautentzündung:",
+      "overlap_score": 0.6071,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 41,
+      "ref": "Werde daran gegeben 4 Tage lang.",
+      "pred": "Werde daran gegeben über 4 Tage hinweg.",
+      "overlap_score": 0.5833,
+      "is_contaminated": false,
+      "train_freq": 2
+    },
+    {
+      "idx": 42,
+      "ref": "Gummiharz: 1, Natron: 1, Blätter der Dornakazie: 1.",
+      "pred": "$psḏ$-Schoten: 1, Langbohnen: 1, $ꜥmꜥꜥ$-Körner (des Emmers / der Gerste?): 1, Johannisbrot: 1, Sägemehl der $ꜥš$-Konifere: 1, Sägemehl der Libanonzeder (?): 1, Sägemehl der Weide: 1, Sägemehl des Christdorns: 1, Sägemehl der Sykomore: 1, Sägemehl des Wacholders: 1, Blätter der Dornakazie: 1, Blätter des Christdorns: 1, Blätter des $jꜣm$-Laubbaumes: 1, Blätter der Sykomore: 1, Leinsamen (?): 1, Früchte/Samen des $jꜣm$-Laubbaumes: 1, weißes Öl: 1, Gänsefett: 1, Schweinekot: 1, „Haarfrüchte“: 1, Myrrhe: 1, Zwiebeln/Knoblauch: 1, „Erdhaar“-Pflanzen: 1, „Zahn“ (d.h. Stachel?) der $gy.t$-Pflanze: 1, Flaschenkürbis: 1, $tjw$-Pflanzen: 1, $bsbs$-Pflanzen: 1, unterägyptische $jbw$-Pflanzen (?): 1, Kerne/Samen vom Flachs: 1, unterägyptisches Salz: 1, Salz vom Bergland: 1, $jnb$-Pflanzen: 1, Roter Ocker: 〈1〉, Ocker: 1, Natron: 1, Rinderfett: 〈1〉, $šꜣšꜣ$-Früchte: 1.",
+      "overlap_score": 0.6579,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 43,
+      "ref": "So handelst du dagegen:",
+      "pred": "So handelst du dagegen:",
+      "overlap_score": 1.0,
+      "is_contaminated": true,
+      "train_freq": 8
+    },
+    {
+      "idx": 44,
+      "ref": "Werde mit Gegorenem von Dattelsaft vermengt.",
+      "pred": "Werde mit „Selbstentstandenem“ vom Dattelsaft vermengt.",
+      "overlap_score": 0.4444,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 45,
+      "ref": "Werde zermahlen.",
+      "pred": "Werde zermahlen.",
+      "overlap_score": 1.0,
+      "is_contaminated": true,
+      "train_freq": 30
+    },
+    {
+      "idx": 46,
+      "ref": "Es findet keinen Weg des Herauskommens.",
+      "pred": "(Und weil) es folglich keinen Weg gibt, dass es aus ihm herauskommen kann (?),",
+      "overlap_score": 0.3548,
+      "is_contaminated": false,
+      "train_freq": 1
+    },
+    {
+      "idx": 47,
+      "ref": "Werde darauf gegeben.",
+      "pred": "Werde darauf gegeben.",
+      "overlap_score": 1.0,
+      "is_contaminated": true,
+      "train_freq": 2
+    },
+    {
+      "idx": 48,
+      "ref": "Werde über 4 Tage hinweg getrunken.",
+      "pred": "Werde über 4 Tage hinweg getrunken.",
+      "overlap_score": 1.0,
+      "is_contaminated": true,
+      "train_freq": 6
+    },
+    {
+      "idx": 49,
+      "ref": "Ich werde zum Himmel kommen.",
+      "pred": "Ich werde dir die Götter bringen, die zum Himmel gehören, und sie werden dir die Götter vereinigen, die zur Erde gehören, damit du mit ihnen zusammen bist und auf ihren Armen gehst.",
+      "overlap_score": 0.45,
+      "is_contaminated": false,
+      "train_freq": 1
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+% COMET-22 results table
+% Model: Unbabel/wmt22-comet-da
+% Contamination split: normalized match (16 contaminated / 34 clean of 50 test)
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Model} & \textbf{All} & \textbf{Contam.} & \textbf{Clean} \\
+\midrule
+Released (HF)         & 0.702 & 0.871 & 0.622 \\
+Exact \texttt{train.py} & 0.721 & 0.871 & 0.650 \\
+M2M-100 Hybrid        & 0.744 & \textbf{0.924} & 0.660 \\
+M2M-100 Conservative       & \textbf{0.753} & 0.915 & \textbf{0.676} \\
+mBART-50              & 0.732 & 0.905 & 0.651 \\
+\bottomrule
+\end{tabular}
+\caption{COMET-22 scores (\texttt{Unbabel/wmt22-comet-da}) on all 50 test samples, the 16 contaminated samples, and the 34 clean samples. Contaminated samples consistently score 0.17--0.26 points higher than clean samples, confirming the contamination-driven inflation observed in BLEU.}
+\label{tab:comet22}
+\end{table}

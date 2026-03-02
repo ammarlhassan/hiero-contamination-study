@@ -1,0 +1,28 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{rlcl}
+\toprule
+\textbf{\#} & \textbf{Target Translation} & \textbf{Freq.} & \textbf{Genre} \\
+\midrule
+1 & Werde gekocht. & 48 & Medical \\
+2 & Werde zermahlen. & 30 & Medical \\
+3 & Werde damit verbunden. & 24 & Medical \\
+4 & Werde daran gegeben. & 23 & Medical \\
+5 & Werde fein zermahlen; & 21 & Medical \\
+6 & Werde getrunken, vier Tage lang. & 16 & Medical \\
+7 & Werde getrunken. & 13 & Medical \\
+8 & So handelst du dagegen: & 8 & Medical \\
+9 & Werde fein zerrieben. & 6 & Medical \\
+10 & Werde über 4 Tage hinweg getrunken. & 6 & Medical \\
+11 & Daraufhin sagten sie: & 2 & Narrative \\
+12 & Werde zerkleinert. & 2 & Medical \\
+13 & Werde darauf gegeben. & 2 & Medical \\
+14 & Daraufhin sagte ich zu ihr: & 1 & Narrative \\
+15 & Mögen ihn die in Tawer Befindlichen und die Priester... & 1 & Religious \\
+16 & Werde jede schmerzende Stelle damit verbunden. & 0$^{\dagger}$ & Medical \\
+\bottomrule
+\end{tabular}
+\caption{Contaminated test targets with training frequency. Medical formulae dominate (13/16), appearing up to 48 times in training. $^{\dagger}$Item \#16 has zero frequency under raw string matching but matches after bracket/punctuation normalization: the training target reads \textit{``[Werde] jede schmerzende Stelle damit [verbunden].''} (see Section~3.2, step~3).}
+\label{tab:contamination-catalog}
+\end{table*}

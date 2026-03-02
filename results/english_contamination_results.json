@@ -1,0 +1,16 @@
+{
+  "total_test_en": 50,
+  "n_training_en": 2517,
+  "unique_training_en_exact": 2475,
+  "unique_training_en_norm": 2447,
+  "exact_matches": 1,
+  "norm_only_matches": 0,
+  "total_contaminated": 1,
+  "clean": 49,
+  "contamination_rate_exact": "2.0%",
+  "contamination_rate_normalized": "2.0%",
+  "contaminated_targets_exact": [
+    "what is on him is to be taken away,"
+  ],
+  "contaminated_targets_norm": []
+}

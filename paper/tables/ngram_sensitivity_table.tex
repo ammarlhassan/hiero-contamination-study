@@ -1,0 +1,21 @@
+% Character n-gram sensitivity table
+% Values = n_flagged / 50  (contamination rate %)
+
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+\textbf{} & \multicolumn{6}{c}{\textbf{Overlap threshold}} \\
+\cmidrule(l){2-7}
+\textbf{n-gram} & 50\% & 60\% & 70\% & 80\% & 90\% & 100\% \\
+\midrule
+6-gram & 37/50 (74\%) & 30/50 (60\%) & 27/50 (54\%) & 22/50 (44\%) & 18/50 (36\%) & 18/50 (36\%) \\
+8-gram & 32/50 (64\%) & 27/50 (54\%) & \textbf{25/50 (50\%)} & 20/50 (40\%) & 18/50 (36\%) & 18/50 (36\%) \\
+10-gram & 30/50 (60\%) & 24/50 (48\%) & 22/50 (44\%) & 19/50 (38\%) & 17/50 (34\%) & 17/50 (34\%) \\
+12-gram & 26/50 (52\%) & 24/50 (48\%) & 22/50 (44\%) & 18/50 (36\%) & 17/50 (34\%) & 17/50 (34\%) \\
+\bottomrule
+\end{tabular}
+\caption{Contamination detection sensitivity across character n-gram size and overlap threshold. Each cell shows the number of test samples flagged out of 50 and the corresponding contamination rate. \textbf{Bold} = primary threshold used in the paper (8-gram, 70\%). Contamination is robust: even at 90\% overlap and $n=12$, more than one-third of the test set is flagged.}
+\label{tab:ngram-sensitivity}
+\end{table*}

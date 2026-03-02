@@ -1,0 +1,20 @@
+% Intermediate n-gram band stratification table
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Model} & \textbf{Exact (n=16, 100\%)} & \textbf{Soft leakage (n=9, 70--99\%)} & \textbf{Clean (n=25, $<$70\%)} \\
+\midrule
+Released         & 60.3 & 23.7 & 33.8 \\
+Exact\_trainpy   & 77.5 & 46.8 & 29.0 \\
+M2M-100\_Hybrid  & 83.8 & 35.1 & 37.9 \\
+M2M-100\_Conservative & 77.9 & 35.3 & 39.6 \\
+mBART50          & 72.8 & 31.0 & 34.7 \\
+\addlinespace
+\textit{Retrieval baseline} & 81.8 & -- & 5.8 \\
+\bottomrule
+\end{tabular}
+\caption{BLEU (\texttt{case:lc}) stratified by three contamination tiers: \textbf{Exact} = normalized exact match with training target (16 samples); \textbf{Soft leakage} = 70--99\% character 8-gram overlap, not exact match (9 samples); \textbf{Clean} = $<$70\% overlap (25 samples). Performance degrades monotonically from exact to soft to clean, and the retrieval baseline matches neural models on exact-match items.}
+\label{tab:three-tier}
+\end{table*}

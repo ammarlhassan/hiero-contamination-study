@@ -1,0 +1,42 @@
+{
+  "Released": {
+    "all": 0.7017,
+    "contaminated": 0.8714,
+    "clean": 0.6219,
+    "n_all": 50,
+    "n_contaminated": 16,
+    "n_clean": 34
+  },
+  "Exact_trainpy": {
+    "all": 0.7207,
+    "contaminated": 0.8712,
+    "clean": 0.6499,
+    "n_all": 50,
+    "n_contaminated": 16,
+    "n_clean": 34
+  },
+  "M2M100_Hybrid": {
+    "all": 0.7443,
+    "contaminated": 0.924,
+    "clean": 0.6597,
+    "n_all": 50,
+    "n_contaminated": 16,
+    "n_clean": 34
+  },
+  "M2M100_WMT2025": {
+    "all": 0.7528,
+    "contaminated": 0.9154,
+    "clean": 0.6763,
+    "n_all": 50,
+    "n_contaminated": 16,
+    "n_clean": 34
+  },
+  "mBART50": {
+    "all": 0.7324,
+    "contaminated": 0.9048,
+    "clean": 0.6513,
+    "n_all": 50,
+    "n_contaminated": 16,
+    "n_clean": 34
+  }
+}

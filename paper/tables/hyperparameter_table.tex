@@ -1,0 +1,41 @@
+% Step 3: Hyperparameter table for paper appendix
+% All values extracted from training scripts
+
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Hyperparameter} & \textbf{Script Reproduction} & \textbf{M2M-100 Hybrid} & \textbf{M2M-100 Conservative} & \textbf{mBART-50} \\
+\midrule
+Base model & M2M-100 418M & M2M-100 418M & M2M-100 418M & mBART-50 611M \\
+Optimizer & Adam & AdamW & AdamW & AdamW \\
+Learning rate & 3e-5 & 3e-5 & 1e-5 & 3e-5 \\
+LR scheduler & None (fixed) & Cosine + warmup & Cosine + warmup & Cosine + warmup \\
+Warmup steps & --- & 1,000 & 1,000 & 500 \\
+\addlinespace
+Batch size (per GPU) & 16 & 8 & 8 & 4 \\
+GPUs & 1 & 1 & 1 & 3$\times$A6000 \\
+Gradient accumulation & --- & 36 & 36 & 24 \\
+Effective batch size & 16 & 288 & 288 & 288 \\
+Max epochs & 20 & 20 & 20 & 20 \\
+\addlinespace
+Dropout & default & 0.2 & 0.2 & 0.2 \\
+Attention dropout & default & 0.05 & 0.05 & 0.05 \\
+Activation dropout & default & 0.05 & 0.05 & 0.05 \\
+Weight decay & --- & 0.1 & 0.1 & 0.1 \\
+Label smoothing & --- & 0.15 & 0.15 & 0.15 \\
+\addlinespace
+Max sequence length & 128 & 112 & 112 & 112 \\
+Eval period (steps) & 1,000 & 500 & 500 & 500 \\
+Early stopping patience & --- & 15 & 15 & 15 \\
+Mixed precision & No & Yes & Yes & Yes \\
+Data upsampling & --- & 5$\times$ & 5$\times$ & 5$\times$ \\
+\addlinespace
+Best checkpoint (steps) & 43,040 & 4,000 & 11,000 & 2,000 \\
+Best validation loss & 1.60 & 3.31 & 3.34 & 1.27 \\
+\bottomrule
+\end{tabular}
+\caption{Training hyperparameters for all model configurations. The original \texttt{train.py} uses minimal regularization (no scheduler, no label smoothing, no explicit dropout tuning). Our retrained models use consistent regularization (effective batch 288, dropout 0.2, label smoothing 0.15) with learning rate as the primary differentiator: 3e-5 (aggressive, from original paper) vs.\ 1e-5 (conservative). ``---'' indicates the parameter was not explicitly set or is not applicable.}
+\label{tab:hyperparameters}
+\end{table*}
