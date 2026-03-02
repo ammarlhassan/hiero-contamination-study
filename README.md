@@ -3,7 +3,7 @@
 Code, data, and results for the paper:
 
 **"Data Contamination in Neural Machine Translation of Ancient Egyptian Hieroglyphics"**
-Submitted to NLP4DH 2026 (Workshop at EACL 2026)
+Submitted to NLP4DH 2026
 
 ## Key Findings
 
