@@ -145,11 +145,16 @@ The original training and test data is from the [hiero-transformer repository](h
 If you use this code or data, please cite:
 
 ```bibtex
-@inproceedings{[authors]2026contamination,
-  title={Data Contamination in Neural Machine Translation of Ancient Egyptian Hieroglyphics},
-  author={[Authors]},
-  booktitle={Proceedings of the Workshop on Natural Language Processing for Digital Humanities (NLP4DH 2026)},
-  year={2026}
+@inproceedings{toutou-etal-2026-data,
+  title     = {Data Contamination in Neural Hieroglyphic Translation:
+               A Reproducibility Study},
+  author    = {Toutou, Ammar and Harb, Abdelrahman and Basta, Christine},
+  booktitle = {Proceedings of the 6th International Conference on
+               Natural Language Processing for Digital Humanities
+               (NLP4DH 2026)},
+  year      = {2026},
+  address   = {San Diego, USA},
+  publisher = {Association for Computational Linguistics},
 }
 ```
 
