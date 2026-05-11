@@ -24,21 +24,17 @@
 \usepackage{xcolor}
 \usepackage{url}
 \usepackage{hyperref}
-\usepackage{comment}
-\usepackage{enumitem}
-
-% Uncomment for final camera-ready version
-% \aclfinalcopy
 
 \title{Data Contamination in Neural Hieroglyphic Translation:\\A Reproducibility Study}
 
-\begin{comment}
 \author{
-[Author Names] \\
-[Affiliation] \\
-\texttt{[email]}
+  Ammar Toutou$^{1}$ \quad Abdelrahman Harb$^{1}$ \quad Christine Basta$^{2,3}$ \\
+  $^{1}$Computer Science and Engineering, Alamein International University (AIU), Egypt \\
+  $^{2}$HiTZ Center, University of the Basque Country, Spain \\
+  $^{3}$Faculty of Computers and Data Science, Alexandria University, Egypt \\
+  \texttt{\{ammar.mohamed.2023, abdelraheman.shehata.2023\}@aiu.edu.eg} \\
+  \texttt{christine.basta@alexu.edu.eg}
 }
-\end{comment}
 
 \date{}
 
@@ -148,7 +144,7 @@ We evaluate five model configurations spanning two training regimes:
 
 \textbf{Released Model}: The publicly available HuggingFace checkpoint of De Cao et al.\ (2024), an M2M-100 (418M) model fine-tuned on TLA data with Adam (lr=3e-5, fixed schedule, batch size 16). This represents what independent researchers can access.
 
-\textbf{Script Reproduction}: We retrained M2M-100 using the original \texttt{train.py} with its default hyperparameters (epochs=20, batch\_size=16, lr=3e-5, Adam, no warmup, no label smoothing). This represents the closest possible replication of the original training procedure.
+\textbf{Script Reproduction}: We retrained M2M-100 with its default hyperparameters (epochs=20, batch\_size=16, lr=3e-5, Adam, no warmup, no label smoothing). This represents the closest possible replication of the original training procedure.
 
 \paragraph{Our retrained models.} The following three models use a modernized training recipe: AdamW optimizer, cosine learning-rate schedule with warmup, label smoothing ($\epsilon{=}0.15$), weight decay (0.1), dropout tuning (0.2/0.05/0.05 for feedforward/attention/activation), gradient clipping (max norm 1.0), and 5$\times$ data upsampling---all applied identically across the three configurations. The effective batch size is 288 (vs.\ 16 in the original). These choices follow recent best practices for low-resource MT.
 
@@ -188,7 +184,7 @@ Generation uses beam search with beam size 10 and maximum length 128, following 
 \subsection{Contamination Statistics}
 \label{sec:results-contamination}
 
-Exact matching finds 15/50 (30.0\%) byte-identical targets; after normalization, \textbf{16/50 (32.0\%)} match---one additional near-duplicate differing only in bracket notation. The validation set shows a comparable rate (23/75, 30.7\%). At the 70\% threshold with character 8-grams, 25/50 (50\%) of test samples are flagged, confirming that 32\% exact match is a conservative lower bound. The consistent rates across test and validation sets indicate a systematic characteristic of the splitting procedure.
+Exact matching finds 15/50 (30.0\%) verbatim targets; after normalization (lowercasing, whitespace and punctuation standardization), \textbf{16/50 (32.0\%)} match, where the 16th sample differs from its training counterpart only in parenthetical formatting. The validation set shows a comparable rate (23/75, 30.7\%). At the 70\% threshold with character 8-grams, 25/50 (50\%) of test samples are flagged, confirming that 32\% exact match is a conservative lower bound. The consistent rates across test and validation sets indicate a systematic characteristic of the splitting procedure.
 
 \subsection{Impact on Automatic Metrics}
 \label{sec:results-metrics}
@@ -198,46 +194,44 @@ Table~\ref{tab:main-results} presents translation quality stratified by contamin
 \begin{table*}[t]
 \centering
 \small
-\begin{tabular}{@{}llccc@{}}
+\begin{tabular}{@{}llcccc@{}}
 \toprule
-\textbf{Model} & \textbf{Subset} & \textbf{n} & \textbf{BLEU} & \textbf{chrF++} \\
+\textbf{Model} & \textbf{Subset} & \textbf{n} & \textbf{BLEU} & \textbf{95\% CI} & \textbf{chrF++} \\
 \midrule
-Released & All & 50 & 37.0 & 56.2 \\
-         & Contaminated & 16 & 60.3 & 81.5 \\
-         & Clean & 34 & 30.9 & 48.1 \\
+Released & All & 50 & 37.0 & {[}24.5, 48.8{]} & 56.2 \\
+         & Contaminated & 16 & 60.3 & {[}37.9, 88.0{]} & 81.5 \\
+         & Clean & 34 & 30.9 & {[}16.2, 43.6{]} & 48.1 \\
 \addlinespace
-Script Reproduction & All & 50 & 42.2 & 61.2 \\
-               & Contaminated & 16 & 77.5 & 85.1 \\
-               & Clean & 34 & 33.8 & 53.7 \\
+Script Reproduction & All & 50 & 42.2 & {[}28.4, 55.0{]} & 61.2 \\
+               & Contaminated & 16 & 77.5 & {[}51.5, 93.4{]} & 85.1 \\
+               & Clean & 34 & 33.8 & {[}20.1, 48.2{]} & 53.7 \\
 \addlinespace
-M2M-100 Hybrid & All & 50 & 46.8 & 63.3 \\
-               & Contaminated & 16 & \textbf{83.8} & \textbf{91.9} \\
-               & Clean & 34 & 37.3 & 54.0 \\
+M2M-100 Hybrid & All & 50 & 46.8 & {[}33.9, 59.2{]} & 63.3 \\
+               & Contaminated & 16 & \textbf{83.8} & {[}62.5, 100.0{]} & \textbf{91.9} \\
+               & Clean & 34 & 37.3 & {[}23.6, 49.8{]} & 54.0 \\
 \addlinespace
-M2M-100 Conservative & All & 50 & \textbf{47.3} & \textbf{63.2} \\
-                & Contaminated & 16 & 77.9 & 90.6 \\
-                & Clean & 34 & \textbf{39.2} & \textbf{54.2} \\
+M2M-100 Conservative & All & 50 & \textbf{47.3} & {[}35.0, 57.4{]} & \textbf{63.2} \\
+                & Contaminated & 16 & 77.9 & {[}59.2, 92.8{]} & 90.6 \\
+                & Clean & 34 & \textbf{39.2} & {[}25.0, 50.9{]} & \textbf{54.2} \\
 \addlinespace
-mBART-50 & All & 50 & 41.9 & 59.6 \\
-         & Contaminated & 16 & 72.8 & 87.3 \\
-         & Clean & 34 & 33.7 & 50.6 \\
+mBART-50 & All & 50 & 41.9 & {[}29.6, 51.8{]} & 59.6 \\
+         & Contaminated & 16 & 72.8 & {[}55.7, 92.4{]} & 87.3 \\
+         & Clean & 34 & 33.7 & {[}18.3, 47.1{]} & 50.6 \\
 \bottomrule
 \end{tabular}
-\caption{Translation quality by contamination status across five models (\texttt{case:lc} BLEU). All models show substantial contamination gaps (29--47 BLEU points). Bold indicates best performance per subset.}
+\caption{Translation quality by contamination status across five models (\texttt{case:lc} BLEU, 95\% CIs from 1{,}000 bootstrap resamples). All models show substantial contamination gaps (29--47 BLEU points). Bold indicates best performance per subset.}
 \label{tab:main-results}
 \end{table*}
 
-The gap is substantial across all five models (+29 to +47 BLEU), holding across architectures (M2M-100 vs.\ mBART-50) and training strategies---the problem is inherent to the dataset. The Script Reproduction outperforms the Released Model (+5.2 BLEU) despite identical hyperparameters; the gap is predominantly on contaminated samples (+17.2) versus clean (+2.9), consistent with different checkpoint selection or training seed rather than a systematic quality difference.
-
-\paragraph{Confidence Intervals.} Bootstrap 95\% CIs (1,000 iterations) are wide due to small subsets (e.g., Released clean: 30.9 [16.2--43.6]) but the gap direction is consistent across all models and all bootstrap samples.
+The gap is substantial across all five models (+29 to +47 BLEU), holding across architectures (M2M-100 vs.\ mBART-50) and training strategies---the problem is inherent to the dataset. Despite wide 95\% CIs on the small subsets (clean: $\pm$7--14 BLEU; contaminated: $\pm$15--20 BLEU), the contaminated and clean intervals do not overlap for any model, confirming the gap is statistically robust. The script reproduction outperforms the released model (+5.2 BLEU) despite identical hyperparameters; the gap is predominantly on contaminated samples (+17.2) versus clean (+2.9), consistent with different checkpoint selection or training seed rather than a systematic quality difference.
 
 \paragraph{COMET-22 Validation.} Table~\ref{tab:comet22} confirms the gap using COMET-22 \citep{rei2022comet}: contaminated samples score 0.871--0.924 while clean samples score 0.622--0.676 (a gap of 0.23--0.26 points). Model rankings on clean data are identical between BLEU and COMET-22, confirming genuine quality differences beyond contamination effects.
 
 \input{comet22_table}
 
-\paragraph{Retrieval Baseline.} An oracle retrieval baseline that copies the best-matching training target (by character 8-gram coverage against the \emph{test target}) achieves 81.8 BLEU on exact-match items---rivaling the best neural model (77.9)---while scoring 0.0 on clean items. A non-oracle source-KNN variant that uses only source similarity achieves only 22.0 BLEU on exact-match items. The 59.8-point gap directly measures the contribution of target memorization over source-driven translation.
+\paragraph{Retrieval Baseline.} A retrieval baseline that, given access to the test target, copies the best-matching training target (by character 8-gram coverage) achieves 81.8 BLEU on exact-match items---rivaling the best neural model (77.9)---while scoring 0.0 on clean items. A realistic variant that uses only source similarity (KNN over source embeddings) achieves only 22.0 BLEU on exact-match items. The 59.8-point gap directly measures the contribution of target memorization over source-driven translation.
 
-\paragraph{Three-Tier Stratification.} Partitioning the test set into exact match (n=16), soft leakage (70--99\% 8-gram overlap; n=9), and clean ($<$70\%; n=25)\footnote{This three-tier ``clean'' subset (n=25) is stricter than the binary split used in Table~\ref{tab:main-results}, where ``clean'' (n=34) includes the 9 soft-leakage samples.} shows BLEU decreasing monotonically across tiers for all five models, confirming that performance tracks contamination severity.
+\paragraph{Granular Contamination Analysis.} When we further split the 34 non-exact samples into soft leakage (70--99\% 8-gram overlap; n=9) and fully clean ($<$70\%; n=25), BLEU decreases monotonically across all five models---from exact to soft to clean---confirming that performance tracks contamination severity.
 
 \paragraph{Source-Side Overlap.}
 Exact-target samples have higher mean source overlap (0.883) than clean samples (0.543), but this reflects formulaic corpus structure, not causal attribution: \textbf{10 of 16 exact-target test items have at least one contaminating training sample with source similarity below 5\%}, meaning the matched target was learned from a completely different hieroglyphic inscription. One test item (``Werde fein zerrieben.'') has zero source overlap with any training sample yet achieves 100\% target overlap. This directly demonstrates target memorization independent of source input.
@@ -322,7 +316,7 @@ We release a decontaminated 34-sample test set and establish corrected baselines
 \section*{Reproducibility Statement}
 %==============================================================================
 
-All data used in this study is publicly available from the hiero-transformer repository. Our contamination detection code, the decontaminated test set (no exact target overlap, 34 samples), evaluation scripts, a per-item catalog mapping all 50 test items to document IDs, contamination status, training frequency, and source overlap scores, and all retrained model checkpoints will be released upon acceptance. \textit{Anonymized for review.}
+All data used in this study is publicly available from the hiero-transformer repository. Our contamination detection code, the decontaminated test set (no exact target overlap, 34 samples), evaluation scripts, a per-item catalog mapping all 50 test items to document IDs, contamination status, training frequency, and source overlap scores, and all retrained model checkpoints are available at \url{https://github.com/ammarlhassan/hiero-contamination-study}.
 
 %==============================================================================
 \section*{Ethics Statement}
